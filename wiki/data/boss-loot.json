@@ -1,0 +1,939 @@
+{
+  "categories": [
+    {
+      "id": "boss-tools",
+      "title": "Boss Tools",
+      "items": [
+        {
+          "configId": 1,
+          "itemId": 258,
+          "name": "Murder Axe",
+          "summary": "For felling the undead!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_axe.png"
+        },
+        {
+          "configId": 2,
+          "itemId": 261,
+          "name": "Flame Bow",
+          "summary": "Shoots fire to the heavens!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/bow_standby.png"
+        },
+        {
+          "configId": 3,
+          "itemId": 267,
+          "name": "Sword of fortune",
+          "summary": "Your fortunate to have this sword.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_sword.png"
+        },
+        {
+          "configId": 4,
+          "itemId": 268,
+          "name": "Wacker",
+          "summary": "Wack 'em back!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/wood_sword.png"
+        },
+        {
+          "configId": 5,
+          "itemId": 264,
+          "name": "Diamond?",
+          "summary": "Better than the normal kind!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond.png"
+        },
+        {
+          "configId": 6,
+          "itemId": 272,
+          "name": "Spider Slayer",
+          "summary": "Slays the spiders!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/stone_sword.png"
+        },
+        {
+          "configId": 7,
+          "itemId": 276,
+          "name": "The Excalibur",
+          "summary": "King Author's sword.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_sword.png"
+        },
+        {
+          "configId": 8,
+          "itemId": 277,
+          "name": "Backhoe",
+          "summary": "Digs too fast!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_shovel.png"
+        },
+        {
+          "configId": 9,
+          "itemId": 278,
+          "name": "Silky",
+          "summary": "Silkier than milk!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_pickaxe.png"
+        },
+        {
+          "configId": 10,
+          "itemId": 279,
+          "name": "Canadian Axe",
+          "summary": "Chops way to fast!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_axe.png"
+        },
+        {
+          "configId": 11,
+          "itemId": 283,
+          "name": "Butter Knife",
+          "summary": "Can only cut butter...",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_sword.png"
+        },
+        {
+          "configId": 12,
+          "itemId": 284,
+          "name": "Golden Spoon",
+          "summary": "Use with caution.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_shovel.png"
+        },
+        {
+          "configId": 13,
+          "itemId": 285,
+          "name": "Drill",
+          "summary": "Drillin through dirt!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_pickaxe.png"
+        },
+        {
+          "configId": 14,
+          "itemId": 286,
+          "name": "American Axe",
+          "summary": "Digs fast too...",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_axe.png"
+        },
+        {
+          "configId": 15,
+          "itemId": 292,
+          "name": "Quarts Hoe",
+          "summary": "Better than iron!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_hoe.png"
+        },
+        {
+          "configId": 16,
+          "itemId": 293,
+          "name": "Magic Hoe",
+          "summary": "Forged by God.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_hoe.png"
+        },
+        {
+          "configId": 36,
+          "itemId": 276,
+          "name": "Spider Whacker",
+          "summary": "Whack spiders.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_sword.png"
+        },
+        {
+          "configId": 37,
+          "itemId": 277,
+          "name": "Gardener's Spade",
+          "summary": "Dig in the garden.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_shovel.png"
+        },
+        {
+          "configId": 38,
+          "itemId": 278,
+          "name": "Dwarf's Pick",
+          "summary": "Diggy diggy hole.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_pickaxe.png"
+        },
+        {
+          "configId": 39,
+          "itemId": 279,
+          "name": "Battle Axe",
+          "summary": "Saxon war axe.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_axe.png"
+        },
+        {
+          "configId": 40,
+          "itemId": 283,
+          "name": "Demon Sword",
+          "summary": "Fiery hot!",
+          "dropLevels": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "image": "../img/wiki/items/gold_sword.png"
+        },
+        {
+          "configId": 41,
+          "itemId": 284,
+          "name": "Disposable Quick Spade",
+          "summary": "Quick but disposable.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_shovel.png"
+        },
+        {
+          "configId": 42,
+          "itemId": 285,
+          "name": "Butter Pick",
+          "summary": "Practically made from butter.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_pickaxe.png"
+        },
+        {
+          "configId": 43,
+          "itemId": 286,
+          "name": "Slim Axe",
+          "summary": "Small but deadly",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_axe.png"
+        },
+        {
+          "configId": 44,
+          "itemId": 292,
+          "name": "Old Hoe",
+          "summary": "Not much use.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_hoe.png"
+        },
+        {
+          "configId": 45,
+          "itemId": 293,
+          "name": "Gardener's Hoe",
+          "summary": "Be a Gardener",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_hoe.png"
+        },
+        {
+          "configId": 61,
+          "itemId": 261,
+          "name": "Robinhood's Bow",
+          "summary": "The Legend Lives!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/bow_standby.png"
+        },
+        {
+          "configId": 62,
+          "itemId": 261,
+          "name": "Brave Flame Bow",
+          "summary": "Burnt may a village.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/bow_standby.png"
+        },
+        {
+          "configId": 63,
+          "itemId": 261,
+          "name": "Squaw Flame Bow",
+          "summary": "Cooked many a pig!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/bow_standby.png"
+        },
+        {
+          "configId": 64,
+          "itemId": 261,
+          "name": "Archers Bow",
+          "summary": "Time to shoot!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/bow_standby.png"
+        },
+        {
+          "configId": 67,
+          "itemId": 399,
+          "name": "Nether Star",
+          "summary": "From the depths of the Nether!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/nether_star.png"
+        },
+        {
+          "configId": 76,
+          "itemId": 267,
+          "name": "Poisoned Blade",
+          "summary": "Poison all ye strike!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_sword.png"
+        },
+        {
+          "configId": 77,
+          "itemId": 280,
+          "name": "Vampire Stake",
+          "summary": "Heals you when used",
+          "dropLevels": [],
+          "image": "../img/wiki/items/stick.png"
+        },
+        {
+          "configId": 89,
+          "itemId": 276,
+          "name": "Void Blade",
+          "summary": "Cuts through dimensions",
+          "dropLevels": [
+            8
+          ],
+          "image": "../img/wiki/items/diamond_sword.png"
+        },
+        {
+          "configId": 90,
+          "itemId": 277,
+          "name": "Frost Shovel",
+          "summary": "Freezes the ground",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_shovel.png"
+        },
+        {
+          "configId": 91,
+          "itemId": 278,
+          "name": "Molten Pickaxe",
+          "summary": "Mines with the heat of lava",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_pickaxe.png"
+        },
+        {
+          "configId": 92,
+          "itemId": 279,
+          "name": "Executioner's Axe",
+          "summary": "Finishes the job",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_axe.png"
+        },
+        {
+          "configId": 93,
+          "itemId": 283,
+          "name": "Nature's Sword",
+          "summary": "Grows with you",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_sword.png"
+        },
+        {
+          "configId": 94,
+          "itemId": 269,
+          "name": "Sun Shovel..?",
+          "summary": "NOT bright as daylight..",
+          "dropLevels": [],
+          "image": "../img/wiki/items/wood_shovel.png"
+        },
+        {
+          "configId": 95,
+          "itemId": 285,
+          "name": "Moon Pickaxe",
+          "summary": "Works best at night",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_pickaxe.png"
+        },
+        {
+          "configId": 96,
+          "itemId": 286,
+          "name": "Ender Axe",
+          "summary": "Chops through the void",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_axe.png"
+        },
+        {
+          "configId": 97,
+          "itemId": 292,
+          "name": "Farmer's Hoe",
+          "summary": "Best for crops",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_hoe.png"
+        },
+        {
+          "configId": 98,
+          "itemId": 293,
+          "name": "Golden Hoe",
+          "summary": "Shines bright",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_hoe.png"
+        }
+      ]
+    },
+    {
+      "id": "boss-potions",
+      "title": "Boss Potions",
+      "items": [
+        {
+          "configId": 34,
+          "itemId": 322,
+          "name": "Thors Apple",
+          "summary": "Stolen from Thors own table.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/apple_golden.png"
+        },
+        {
+          "configId": 35,
+          "itemId": 396,
+          "name": "Easter Bunny's Carrot",
+          "summary": "He will kill to get it back!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/carrot_golden.png"
+        },
+        {
+          "configId": 65,
+          "itemId": 322,
+          "name": "God Apple",
+          "summary": "Not eaten my mortals! And never can be!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/apple_golden.png"
+        },
+        {
+          "configId": 68,
+          "itemId": 373,
+          "name": "Poison Potion",
+          "summary": "Very deadly.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/potion_bottle_splash.png"
+        },
+        {
+          "configId": 69,
+          "itemId": 373,
+          "name": "Invisibility Potion",
+          "summary": "From nowhere?",
+          "dropLevels": [],
+          "image": "../img/wiki/items/potion_bottle_splash.png"
+        },
+        {
+          "configId": 70,
+          "itemId": 373,
+          "name": "Life Potion",
+          "summary": "Not many left on earth.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/potion_bottle_splash.png"
+        },
+        {
+          "configId": 75,
+          "itemId": 382,
+          "name": "Hunger Charm",
+          "summary": "Hunger no more",
+          "dropLevels": [
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/melon_speckled.png"
+        },
+        {
+          "configId": 78,
+          "itemId": 414,
+          "name": "Bunny Charm",
+          "summary": "Jump Higher",
+          "dropLevels": [
+            4,
+            5
+          ],
+          "image": "../img/wiki/items/rabbit_foot.png"
+        },
+        {
+          "configId": 79,
+          "itemId": 397,
+          "name": "Wither Charm",
+          "summary": "Wither all ye fight!",
+          "dropLevels": [
+            7
+          ],
+          "image": "../img/wiki/items/wither_skull.png"
+        },
+        {
+          "configId": 80,
+          "itemId": 402,
+          "name": "Cloak Charm",
+          "summary": "They will see you not",
+          "dropLevels": [],
+          "image": "../img/wiki/items/fireworks_charge.png"
+        },
+        {
+          "configId": 81,
+          "itemId": 352,
+          "name": "Weakness Charm",
+          "summary": "Weaken your foes",
+          "dropLevels": [
+            6
+          ],
+          "image": "../img/wiki/items/bone.png"
+        },
+        {
+          "configId": 82,
+          "itemId": 410,
+          "name": "Aqua Charm",
+          "summary": "Become the fish...",
+          "dropLevels": [
+            4
+          ],
+          "image": "../img/wiki/items/prismarine_crystals.png"
+        },
+        {
+          "configId": 83,
+          "itemId": 409,
+          "name": "Guardian Tooth",
+          "summary": "It can only make you stronger!",
+          "dropLevels": [
+            4,
+            5
+          ],
+          "image": "../img/wiki/items/prismarine_shard.png"
+        },
+        {
+          "configId": 84,
+          "itemId": 19,
+          "name": "Soggy Sponge",
+          "summary": "",
+          "dropLevels": [],
+          "image": "../img/wiki/items/sponge.png"
+        },
+        {
+          "configId": 85,
+          "itemId": 415,
+          "name": "Kangaroo Strength",
+          "summary": "Cowabunga! So strong! but... so slow...",
+          "dropLevels": [
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/rabbit_hide.png"
+        },
+        {
+          "configId": 86,
+          "itemId": 425,
+          "name": "Arms Trophy",
+          "summary": "You feel a bit more powerful...",
+          "dropLevels": [
+            8
+          ],
+          "image": "../img/wiki/items/banner_base.png"
+        },
+        {
+          "configId": 87,
+          "itemId": 378,
+          "name": "Sunscreen",
+          "summary": "Protect you from the heat!",
+          "dropLevels": [
+            6
+          ],
+          "image": "../img/wiki/items/magma_cream.png"
+        }
+      ]
+    },
+    {
+      "id": "boss-armor",
+      "title": "Boss Armor",
+      "items": [
+        {
+          "configId": 17,
+          "itemId": 299,
+          "name": "Old Shirt",
+          "summary": "Still good!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/leather_chestplate.png"
+        },
+        {
+          "configId": 18,
+          "itemId": 302,
+          "name": "Water Helmet",
+          "summary": "Go in the sea!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_helmet.png"
+        },
+        {
+          "configId": 19,
+          "itemId": 303,
+          "name": "Creeper Gear",
+          "summary": "Part 2",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_chestplate.png"
+        },
+        {
+          "configId": 20,
+          "itemId": 304,
+          "name": "Thorny Pants",
+          "summary": "Very Sharp...",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_leggings.png"
+        },
+        {
+          "configId": 21,
+          "itemId": 305,
+          "name": "Travellers Boots",
+          "summary": "Go on a journey!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_boots.png"
+        },
+        {
+          "configId": 22,
+          "itemId": 306,
+          "name": "Rusty Iron Helm",
+          "summary": "Rusted but still good.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_helmet.png"
+        },
+        {
+          "configId": 23,
+          "itemId": 307,
+          "name": "Archers Vest",
+          "summary": "Take an arrow to the knee!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_chestplate.png"
+        },
+        {
+          "configId": 24,
+          "itemId": 308,
+          "name": "Firemen Pants",
+          "summary": "Take 'em to a fire!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_leggings.png"
+        },
+        {
+          "configId": 25,
+          "itemId": 309,
+          "name": "Fall Far Boots",
+          "summary": "Mark 1",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_boots.png"
+        },
+        {
+          "configId": 26,
+          "itemId": 314,
+          "name": "Fish Hat",
+          "summary": "Be the fish.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_helmet.png"
+        },
+        {
+          "configId": 27,
+          "itemId": 315,
+          "name": "Fish Body",
+          "summary": "Be the fish.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_chestplate.png"
+        },
+        {
+          "configId": 28,
+          "itemId": 316,
+          "name": "Fish Legs",
+          "summary": "Be the fish.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_leggings.png"
+        },
+        {
+          "configId": 29,
+          "itemId": 317,
+          "name": "Fish Feet",
+          "summary": "Be the fish.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_boots.png"
+        },
+        {
+          "configId": 30,
+          "itemId": 310,
+          "name": "Drowned Helm",
+          "summary": "From the Drowned Gods watery halls.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_helmet.png"
+        },
+        {
+          "configId": 31,
+          "itemId": 311,
+          "name": "Drowned Plate",
+          "summary": "From the Drowned Gods watery halls.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_chestplate.png"
+        },
+        {
+          "configId": 32,
+          "itemId": 312,
+          "name": "Drowned Leggings",
+          "summary": "From the Drowned Gods watery halls.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_leggings.png"
+        },
+        {
+          "configId": 33,
+          "itemId": 313,
+          "name": "Drowned Boots",
+          "summary": "From the Drowned Gods watery halls.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_boots.png"
+        },
+        {
+          "configId": 46,
+          "itemId": 299,
+          "name": "Boiled Leather Shirt",
+          "summary": "Better than nothing.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/leather_chestplate.png"
+        },
+        {
+          "configId": 47,
+          "itemId": 302,
+          "name": "Sharp Hat",
+          "summary": "So sharp...",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_helmet.png"
+        },
+        {
+          "configId": 48,
+          "itemId": 303,
+          "name": "Sharp Chest",
+          "summary": "So sharp...",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_chestplate.png"
+        },
+        {
+          "configId": 49,
+          "itemId": 304,
+          "name": "Traveller's Pants",
+          "summary": "Worn but still good.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_leggings.png"
+        },
+        {
+          "configId": 50,
+          "itemId": 305,
+          "name": "Strong Boots",
+          "summary": "So strong!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_boots.png"
+        },
+        {
+          "configId": 51,
+          "itemId": 306,
+          "name": "Cast Iron Helm",
+          "summary": "Its Iron but cast.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_helmet.png"
+        },
+        {
+          "configId": 52,
+          "itemId": 307,
+          "name": "Spiked Chestplate",
+          "summary": "Nothing can survive this.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_chestplate.png"
+        },
+        {
+          "configId": 53,
+          "itemId": 308,
+          "name": "Archers Pants",
+          "summary": "Stops 'em arrows.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_leggings.png"
+        },
+        {
+          "configId": 54,
+          "itemId": 309,
+          "name": "Stiletto Heels",
+          "summary": "Don't walk one me!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_boots.png"
+        },
+        {
+          "configId": 55,
+          "itemId": 314,
+          "name": "Death Mask",
+          "summary": "Breath death itself!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_helmet.png"
+        },
+        {
+          "configId": 56,
+          "itemId": 315,
+          "name": "Kings Breastplate",
+          "summary": "Only for kings, Those of noble birth, Not you...",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_chestplate.png"
+        },
+        {
+          "configId": 57,
+          "itemId": 312,
+          "name": "Archers Pants MK 2",
+          "summary": "Even better than MK 1!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_leggings.png"
+        },
+        {
+          "configId": 58,
+          "itemId": 313,
+          "name": "7 League Boots",
+          "summary": "Just say the magic word.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_boots.png"
+        },
+        {
+          "configId": 59,
+          "itemId": 310,
+          "name": "Mermen Helm",
+          "summary": "Don't drown!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_helmet.png"
+        },
+        {
+          "configId": 60,
+          "itemId": 311,
+          "name": "Archers Vest MK2",
+          "summary": "Also has spikes!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_chestplate.png"
+        },
+        {
+          "configId": 66,
+          "itemId": 397,
+          "name": "Creeper Gear",
+          "summary": "Part 1",
+          "dropLevels": [],
+          "image": "../img/wiki/items/creeper_head.png"
+        },
+        {
+          "configId": 71,
+          "itemId": 298,
+          "name": "Eliminator's Helmet",
+          "summary": "Only for the best!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/leather_helmet.png"
+        },
+        {
+          "configId": 72,
+          "itemId": 303,
+          "name": "Eliminator's Chestplate",
+          "summary": "You have to be awesome!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_chestplate.png"
+        },
+        {
+          "configId": 73,
+          "itemId": 300,
+          "name": "Eliminator's Pants",
+          "summary": "The most epic!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/leather_leggings.png"
+        },
+        {
+          "configId": 74,
+          "itemId": 301,
+          "name": "Eliminator's Boots",
+          "summary": "That much more cool!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/leather_boots.png"
+        },
+        {
+          "configId": 88,
+          "itemId": 397,
+          "name": "Zombie Gear",
+          "summary": "Part 1",
+          "dropLevels": [],
+          "image": "../img/wiki/items/zombie_head.png"
+        },
+        {
+          "configId": 99,
+          "itemId": 299,
+          "name": "Chainmail Tunic",
+          "summary": "Light but strong",
+          "dropLevels": [],
+          "image": "../img/wiki/items/leather_chestplate.png"
+        },
+        {
+          "configId": 100,
+          "itemId": 302,
+          "name": "Diver's Helmet",
+          "summary": "Breathe underwater",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_helmet.png"
+        },
+        {
+          "configId": 101,
+          "itemId": 303,
+          "name": "Fireproof Chestplate",
+          "summary": "Walk through lava",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_chestplate.png"
+        },
+        {
+          "configId": 102,
+          "itemId": 304,
+          "name": "Ranger's Leggings",
+          "summary": "Move silently",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_leggings.png"
+        },
+        {
+          "configId": 103,
+          "itemId": 305,
+          "name": "Spring Boots",
+          "summary": "Jump higher",
+          "dropLevels": [],
+          "image": "../img/wiki/items/chainmail_boots.png"
+        },
+        {
+          "configId": 104,
+          "itemId": 306,
+          "name": "Iron Mask",
+          "summary": "Hide your face",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_helmet.png"
+        },
+        {
+          "configId": 105,
+          "itemId": 307,
+          "name": "Mage's Robe",
+          "summary": "Enhances magic",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_chestplate.png"
+        },
+        {
+          "configId": 106,
+          "itemId": 308,
+          "name": "Forest Leggings",
+          "summary": "Blend with nature",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_leggings.png"
+        },
+        {
+          "configId": 107,
+          "itemId": 309,
+          "name": "Frost Walker Boots",
+          "summary": "Walk on water",
+          "dropLevels": [],
+          "image": "../img/wiki/items/iron_boots.png"
+        },
+        {
+          "configId": 108,
+          "itemId": 314,
+          "name": "Wizard's Hat",
+          "summary": "Channel your magic",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_helmet.png"
+        },
+        {
+          "configId": 109,
+          "itemId": 315,
+          "name": "Golden Chestplate",
+          "summary": "Shines like the sun",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_chestplate.png"
+        },
+        {
+          "configId": 110,
+          "itemId": 316,
+          "name": "Chainmail Leggings",
+          "summary": "Light but durable",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_leggings.png"
+        },
+        {
+          "configId": 111,
+          "itemId": 317,
+          "name": "Leather Boots",
+          "summary": "Soft and quiet",
+          "dropLevels": [],
+          "image": "../img/wiki/items/gold_boots.png"
+        }
+      ]
+    }
+  ]
+}

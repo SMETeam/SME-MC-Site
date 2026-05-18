@@ -1,0 +1,595 @@
+[
+  {
+    "name": "lavawalker",
+    "description": "Walk on Lava.",
+    "levels": [
+      1
+    ]
+  },
+  {
+    "name": "frostwalker",
+    "description": "Walk on water",
+    "levels": [
+      1
+    ]
+  },
+  {
+    "name": "adrenaline",
+    "description": "Gain Strength when defending mob attacks.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "aura",
+    "description": "Reduce damage taken by nearby players.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "blackout",
+    "description": "Blind your opponent.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "blast_mining",
+    "description": "Mine blocks in a 3x3 area.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "drain",
+    "description": "Cause your opponent to drain.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "name": "caffeinated",
+    "description": "Chance to increase attack speed while sprinting.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "critical",
+    "description": "Increase damage done with critical hit.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "cubism",
+    "description": "Deal more damage to slimes and magma cubes.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "enderbane",
+    "description": "Increases damage dealt to Enderman and Ender dragons.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "escape",
+    "description": "Gain a short burst of speed after taking damage.",
+    "levels": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "finishing",
+    "description": "Increases damage dealt to low-health enemies.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "first_strike",
+    "description": "Deal more damage to enemies at full health.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "flashbang",
+    "description": "Blind your opponent on hit.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "frost",
+    "description": "Chance to freeze your opponent.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "postpone",
+    "description": "Chance to cause no knockback to mobs.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "breaklessness",
+    "description": "Gives a chance to fail to break blocks.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "carve",
+    "description": "Give damage to entities within a few blocks when you swing.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "end_affinity",
+    "description": "Reduces damages dealt in the end world.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "ninja",
+    "description": "Chance to deal more damage to enemy while sneaking",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "feather_step",
+    "description": "Chance to cancel fall damage.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "getaway",
+    "description": "Chance to gain more movement speed below &a20%&7 health when dealt with damage",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "harmlessness",
+    "description": "Gives a chance for attacks to do nothing.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "infernaltouch",
+    "description": "Chance to smelt mined blocks.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "nether_affinity",
+    "description": "Reduces damages recieved in the nether world.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "nether_prospector",
+    "description": "Chance to multiply quartz ore drops.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "blazereaper",
+    "description": "Boosts damage against Nether creatures.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "replenish",
+    "description": "Restores crops back when you break them.",
+    "levels": [
+      1
+    ]
+  },
+  {
+    "name": "blow",
+    "description": "Chance to deal double damage.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "waterborne",
+    "description": "Helps ya get some air underwater.",
+    "levels": [
+      1
+    ]
+  },
+  {
+    "name": "experience",
+    "description": "Chance to get more experience from ores.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "name": "haste",
+    "description": "Allows you to swing your tools faster.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "alacrity",
+    "description": "Enables you to use your tools at a quicker speed.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "repel",
+    "description": "Chance to drive your opponent backward.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "starvation",
+    "description": "A chance to inflict the hunger effect on your opponent..",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "resonate",
+    "description": "Take in enemy damage and send it back at them.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "explosive",
+    "description": "Chance for arrows to explode.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "luck",
+    "description": "Get more exp from fishing.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "scorching",
+    "description": "Chance to ignite the attacker in flames.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "ravenous",
+    "description": "Chance to regain hunger while fighting.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "zombiecrusher",
+    "description": "Boosts damage inflicted on Zombies.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "skullcrusher",
+    "description": "Boosts damage inflicted on Skeletons.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "incinerate",
+    "description": "Boosts damage inflicted on Spiders.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "allurement",
+    "description": "Grants a chance to catch double loot while fishing.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "arcticfreeze",
+    "description": "Chance to inflict slowness and cause bleeding on opponents.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "rebounding",
+    "description": "Rebounds incoming damage back at your attacker.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "rumble",
+    "description": "Chance to damage back to all entities in a radius",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "shura",
+    "description": "Gives a bonus to critical damage when under half health",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "strike",
+    "description": "Chance to strike lightning at the opponent.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "multishot",
+    "description": "Rain arrows over opponent.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "vanish",
+    "description": "Chance to disappear for a few seconds after taking damage.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "wildmark",
+    "description": "Increases arrow damage.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "soulless",
+    "description": "Increases damage dealt to Hostile Mobs.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "hunter",
+    "description": "Increases damage dealt to Passive Mobs.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "virus",
+    "description": "A chance of giving poison effect.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "entangle",
+    "description": "Chance to immobilize your target when they are hit.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "crouch",
+    "description": "Reduce damage taken when crouching",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "escapist",
+    "description": "Chance to gain a burst of Speed IV on low HP.",
+    "levels": [
+      1
+    ]
+  },
+  {
+    "name": "markofthebeast",
+    "description": "Deal 2x damage for up to 5 seconds.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "name": "learn",
+    "description": "Gain XP randomly",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "timber",
+    "description": "Chance to break a tree in one hit",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "frostbite",
+    "description": "Chance slow and bleed opponents.",
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "name": "telepathy",
+    "description": "Automatically places blocks broken by tools in your inventory.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]

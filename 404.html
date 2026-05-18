@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script>if(location.pathname.startsWith("/SME-site/"))location.replace(location.origin+location.pathname.replace("/SME-site","")+location.search+location.hash);</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SME MC | 404</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXQDSX4Y9W"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-NXQDSX4Y9W');
+  </script>
+  <!-- Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7873647236633812"
+      crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <nav class="desktop_navbar">
+    <a href="/"><img class="desktop_navbar_logo_img" src="img/logo.png" alt="logo"></a>
+    <a href="/wiki/" class="desktop_navbar_link">Wiki</a>
+    <a href="https://map.sme-mc.us/" class="desktop_navbar_link">Map</a>
+    <a href="/#discord" class="desktop_navbar_link">Community</a>
+    <a href="/#about" class="desktop_navbar_link">About Us</a>
+    <a href="/#donate" class="desktop_navbar_link">Donate</a>
+    <div class="desktop_navbar_link2_div">
+      <a href="/#join" class="desktop_navbar_link2">Join Us!</a>
+    </div>
+  </nav>
+  <div class="mobile_navbar">
+    <a href="/" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" src="img/logo.png"
+        alt="logo"></a>
+    <div id="mobile_navbar_links">
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/wiki/">Wiki</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="https://map.sme-mc.us/">Map</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#discord">Community</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#about">About Us</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#donate">Donate</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#join">Join Us</a>
+    </div>
+    <div class="icon" onclick="mobile_navbar_link_hider()">
+      <i class="fa fa-bars"></i>
+    </div>
+    <script>
+      function mobile_navbar_link_hider() {
+        var x = document.getElementById("mobile_navbar_links");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+    </script>
+  </div>
+
+  <div class="mainflex">
+    <div class="main1">
+      <div class="main1_description">
+        <a>404</a><br>
+        <a class="main1_actcent">Page not found</a>
+      </div>
+      <div class="main1_ipcopier_div">
+        <a class="main1_ipcopier" style="text-decoration: none; display: inline-block; margin: 0 0.5rem;" href="/">Go Home</a>
+      </div>
+      <div style="margin-top: 1.5rem; opacity: 0.75; text-align: center;">
+        The page you requested does not exist or moved.
+      </div>
+    </div>
+  </div>
+
+  <footer class="copyright_div">
+    <h2 class="copyright">
+      SME MC Created by Snubs and Aden<br>
+      Ac2026 SME MC. All rights reserved.
+    </h2>
+
+    <div class="template-credit">
+      Website Template created by FQQD Ac2023<br>
+      All modifications by SME Team.
+    </div>
+  </footer>
+</body>
+
+</html>

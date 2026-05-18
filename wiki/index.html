@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script>if(location.pathname.startsWith("/SME-site/"))location.replace(location.origin+location.pathname.replace("/SME-site","")+location.search+location.hash);</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SME MC Wiki</title>
+  <meta name="description" content="Official SME MC wiki with guides for Survival, Creative, Duels, Bed Wars, One Block, and more!">
+  <meta property="og:title" content="SME MC Wiki">
+  <meta property="og:description" content="Official SME MC wiki with guides for Survival, Creative, Duels, Bed Wars, One Block, and more!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sme-mc.us/wiki/">
+  <meta property="og:image" content="https://sme-mc.us/img/logo.png">
+  <meta property="og:site_name" content="SME MC">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SME MC Wiki">
+  <meta name="twitter:description" content="Official SME MC wiki with guides for Survival, Creative, Duels, Bed Wars, One Block, and more!">
+  <meta name="twitter:image" content="https://sme-mc.us/img/logo.png">
+  <link rel="icon" type="image/png" href="../img/logo.png">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/wiki.css">
+  <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NXQDSX4Y9W"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-NXQDSX4Y9W');
+  </script>
+  <!-- Ads -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7873647236633812"
+      crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="wiki-page">
+  <button class="sidenav-toggle" id="sidenav-toggle" type="button" aria-controls="wiki-sidenav" aria-expanded="false">
+    <span class="sidenav-toggle-icon" aria-hidden="true">&gt;</span>
+    <span class="sr-only">toggle</span>
+  </button>
+  <nav class="desktop_navbar">
+    <a href="#"><img class="desktop_navbar_logo_img" src="../img/logo.png" alt="logo"></a>
+    <a href="/" class="desktop_navbar_link">Home</a>
+    <a href="https://map.sme-mc.us/" class="desktop_navbar_link">Map</a>
+    <a href="/#discord" class="desktop_navbar_link scroll">Community</a>
+    <a href="/#about" class="desktop_navbar_link scroll">About Us</a>
+    <a href="/#donate" class="desktop_navbar_link scroll">Donate</a>
+    <div class="desktop_navbar_link2_div">
+      <a href="/#join" class="desktop_navbar_link2 scroll">Join Us!</a>
+    </div>
+  </nav>
+  <div class="mobile_navbar">
+    <a href="#" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" src="../img/logo.png"
+        alt="logo"></a>
+    <div id="mobile_navbar_links">
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/">Home</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="https://map.sme-mc.us/">Map</a>
+      <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="/#discord">Community</a>
+      <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="/#about">About Us</a>
+      <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="/#donate">Donate</a>
+      <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="/#join">Join Us</a>
+    </div>
+    <div class="icon" onclick="mobile_navbar_link_hider()">
+      <i class="fa fa-bars"></i>
+    </div>
+    <script>
+      function mobile_navbar_link_hider() {
+        var x = document.getElementById("mobile_navbar_links");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+    </script>
+  </div>
+  <div id="wiki-sidenav" class="sidenav">
+    <br><br> <!--temp fix-->
+    <h3>Wiki</h3>
+    <a href="#" data-page="">Getting Started</a>
+
+    <h3>Gamemodes</h3>
+    <a href="#" data-page="survival">Survival</a>
+
+    <div class="sidenav-sub">
+      <a href="#" data-page="sr-boss-info">Boss Info</a>
+      <a href="#" data-page="sr-boss-loot">Boss Loot</a>
+      <a href="#" data-page="sr-enchants">Enchants</a>
+      <a href="#" data-page="sr-dimensions">Dimensions</a>
+      <a href="#" data-page="sr-eco">Economy</a>
+    </div>
+
+    <a href="#" data-page="survival+">Survival+</a>
+
+    <a href="#" data-page="creative">Creative</a>
+    <a href="#" data-page="oneblock">One Block</a>
+    <a href="#" data-page="duels">Duels</a>
+    <a href="#" data-page="bed-wars">Bed Wars</a>
+    <a href="#" data-page="murder-mystery">Murder Mystery</a>
+    <br><br><br><br> <!--temp fix-->
+  </div>
+  <main class="wiki-main">
+    <div id="wiki-empty" class="wiki-empty">
+      To start using the wiki please choose a category :D
+    </div>
+    <br>
+
+<!----------------------------------------- Survival Section ------------------------------------------>
+    <section id="survival" class="wiki-section" style="display:none;">
+      <h2 class="headline">Survival</h2>
+      Survival is the most played gamemode on SME! But for a new player.. might be a little hard even with the /help command!
+      So get ready to learn using the Offical SME Wiki!
+      <p class="under-construction">Please choose one of the sub-categories to see more info!</p>
+    </section>
+
+    <!-- Boss Info -->
+    <section id="sr-boss-info" class="wiki-section" style="display:none;">
+      <h2 class="headline">Boss Info</h2>
+
+      <div class="boss-info-layout">
+        <article class="boss-info-panel boss-info-panel-wide">
+          <h3>Boss Levels</h3>
+          <div class="boss-levels-wrap">
+            <table class="enchants-table boss-levels-table">
+              <thead>
+                <tr>
+                  <th>Level</th>
+                  <th>Prefix</th>
+                  <th>Spawn Chance</th>
+                </tr>
+              </thead>
+              <tbody id="boss-levels-body">
+                <tr>
+                  <td colspan="3">Loading...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="boss-info-panel">
+          <h3>Mobs</h3>
+          <div class="boss-pill-list" id="boss-mobs-list">
+            <span class="boss-pill boss-pill-loading">Loading...</span>
+          </div>
+        </article>
+
+        <article class="boss-info-panel">
+          <h3>Boss Abilities</h3>
+          <div class="boss-pill-list" id="boss-abilities-list">
+            <span class="boss-pill boss-pill-loading">Loading...</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Boss Loot Section -->
+    <section id="sr-boss-loot" class="wiki-section" style="display:none;">
+      <h2 class="headline">Boss Loot</h2>
+
+      <div class="boss-menu">
+        <a href="#boss-tools" class="boss-card left">
+          <img src="../img/construction.jpg" alt="Boss Tools">
+          <span>Boss Tools</span>
+          <small id="boss-tools-count">Loading...</small>
+        </a>
+
+        <a href="#boss-potions" class="boss-card center">
+          <img src="../img/construction.jpg" alt="Boss Potions">
+          <span>Boss Potions</span>
+          <small id="boss-potions-count">Loading...</small>
+        </a>
+
+        <a href="#boss-armor" class="boss-card right">
+          <img src="../img/construction.jpg" alt="Boss Armor">
+          <span>Boss Armor</span>
+          <small id="boss-armor-count">Loading...</small>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- Enchants -->
+    <section id="sr-enchants" class="wiki-section" style="display:none;">
+      <h2 class="headline">Enchants</h2>
+      There are many enchants in the Survival server! Not just vanilla but also custom! So jumping into the server without any knowledge might get you a little confused...
+      <br>But do not worry! You are literally on a guide right now!<br>
+      <hr>      
+      <a>Currently there are <span id="enchant-ammount">#</span> custom enchants in the game! Don't get overwhelmed now!</a>
+
+      <div class="enchants-table-wrap">
+        <table class="enchants-table" id="enchants-table">
+          <thead>
+            <tr>
+              <th>Enchant</th>
+              <th>Info</th>
+              <th>Levels</th>
+            </tr>
+          </thead>
+          <tbody id="enchants-table-body">
+            <tr>
+              <td colspan="3">Loading enchants...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr>
+      Did you get all that? Good! Now go out there and start enchanting your gear to become stronger! But wait... how do you get them?
+      <h2 class="headline">How to get Enchants?</h2>
+      There are multiple ways to get enchants in Survival! You can get them from <a style="color:aqua">Mobs</a>, from the<a style="color:aqua"> Shop</a>, and <a style="color:aqua">Enchantment Tables</a>! 
+      <br>However they do <a style="color:red">NOT</a> always drop the book..
+    </section>
+
+    <!-- Dimensions -->
+    <section id="sr-dimensions" class="wiki-section" style="display:none;">
+      <h2 class="headline">Dimensions Info</h2>
+      <p>Survival isn't the survival you're expecting.. This server has a semi-modded experience!</p>
+      <div class="dimension-grid">
+        <article class="dimension-card">
+          <img src="../img/wiki/worlds/overworld.png" alt="Overworld landscape">
+          <div class="dimension-card-body">
+            <h3>Overworld</h3>
+            <p>The main world, filled with custom generation, secret dungeons, and more!</p>
+          </div>
+        </article>
+        <article class="dimension-card">
+          <img src="../img/wiki/worlds/nether.png" alt="Nether landscape">
+          <div class="dimension-card-body">
+            <h3>Nether</h3>
+            <p>Fast travel routes, but pretty dangerous.. many players tend to use the nether for hidden bases or to find quartz which gives some good cash!</p>
+          </div>
+        </article>
+        <article class="dimension-card">
+          <img src="../img/wiki/worlds/end.png" alt="End dimension landscape">
+          <div class="dimension-card-body">
+            <h3>End</h3>
+            <p>Ender mobs and a respawning dragon. Prepare before heading in and watch for the void..</p>
+          </div>
+        </article>
+        <article class="dimension-card">
+          <img src="../img/wiki/worlds/aether.png" alt="Aether landscape">
+          <div class="dimension-card-body">
+            <h3>Aether</h3>
+            <p>A custom sky world, great for traveling, ores, and also for farms!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Economy -->
+    <section id="sr-eco" class="wiki-section" style="display:none;">
+      <h2 class="headline">Economy Info</h2>
+      <p>Ah yes, the most confusing part of the server.. well at least for me..<br>You can earn money a LOT of ways; This includes <a style="color: aqua">Killing Mobs and Players</a>, <a style="color: aqua">Orders</a>, <a style="color: aqua">Auction</a>, <a style="color: aqua">Season Pass</a>, and <a style="color: aqua">Shop</a>.</p>
+      <hr>
+      <p><h3>Mobs</h3> Depending on the entity it is, can drop different ammounts. Now we will not tell you here so you have to figure it out your self.</p> <img class="wiki-media" src="../img/wiki/mob-kill.png">
+      <hr class="short">
+      <p><h3>Orders</h3>This is one way you can earn money very fast! If a player is desperately looking for a item usually they tend to put out some orders! To check simply run <pre>"/orders" (more info on the /help command)</pre> to see the list of current orders! Then simply deliver the item that is needed by the player and boom! You got a cash out!</p> <img class="wiki-media" src="../img/wiki/orders.png">
+      <hr class="short">
+      <p><h3>Auction</h3> Got your self a neat item? Maybe even two of them? Well, selling it may be a good option! Not on the normal shop but on Auction! The Auction is a place where players can sell their items for what ever they want! Ore, Bags, Swords, you name it! You can sell EVERYTHING here! Simply run <pre>"/ah" or to sell '/ah sell [ammount] [price]" (more info on the /help command)</pre> and you are ready to start selling/purchasing!.</p> <img class="wiki-media" src="../img/wiki/auction.png">
+      <hr class="short">
+      <p><h3>Shop</h3>The shop, the main way to earn money. The shop can sell MOST items, even ones not for sale! But at a catch.. if you sell a Diamond for example and it gives 500$, after selling that diamond the price will go down.. Why? To prevent inflation of the market if someone where to buy a bunch of items. To start using the shop just run<pre>"/shop" or to sell '/sellgui" (more info on the /help command)</pre></p> <img class="wiki-media" src="../img/wiki/shop.png">
+      <hr>
+    </section>
+
+<!----------------------------------------- Survival Section Finished ------------------------------------------>
+
+    <section id="survival+" class="wiki-section" style="display:none;">
+      <h2 class="headline">Survival+</h2>
+      This server is just normal Vanilla 1.8.8 Minecraft; This is given to players who have donated to the server as a extra place to play for fun!
+      <br>
+      idk what to write lol
+    </section>
+
+    <section id="creative" class="wiki-section" style="display:none;">
+      <h2 class="headline">Creative</h2>
+      Creative is a gamemode that you are given a plot to do what every you want! You can even use <bold>WorldEdit</bold>, you are unsure how to use it go <a href="https://worldedit.enginehub.org/en/latest/">here</a>.<hr><img class="wiki-media" src="../img/wiki/creative.png">
+    </section>
+
+    <section id="oneblock" class="wiki-section" style="display:none;">
+      <h2 class="headline">One Block</h2>
+      <p class="under-construction">This page is under construction. Please check back later!</p>
+    </section>
+
+    <section id="duels" class="wiki-section" style="display:none;">
+      <h2 class="headline">Duels</h2>
+      <p class="under-construction">This page is under construction. Please check back later!</p>
+    </section>
+
+    <section id="bed-wars" class="wiki-section" style="display:none;">
+      <h2 class="headline">Bed Wars</h2>
+      <p class="under-construction">This page is under construction. Please check back later!</p>
+    </section>
+
+    <section id="murder-mystery" class="wiki-section" style="display:none;">
+      <h2 class="headline">Murder Mystery</h2>
+      <p class="under-construction">This page is under construction. Please check back later!</p>
+    </section>
+  </main>
+
+  <footer class="wiki-footer">
+    <p>Need something added? Drop a suggestion in Discord.</p>
+  </footer>
+
+  <div id="boss-tools" class="modal">
+    <div class="modal-content">
+      <a href="#sr-boss-loot" class="close" aria-label="Close boss tools">x</a>
+      <h2>Boss Tools</h2>
+      <div class="loot-grid" id="boss-tools-grid">
+        <div class="loot-item loot-item-loading">
+          <p>Loading boss loot...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="boss-potions" class="modal">
+    <div class="modal-content">
+      <a href="#sr-boss-loot" class="close" aria-label="Close boss potions">x</a>
+      <h2>Boss Potions</h2>
+      <div class="loot-grid" id="boss-potions-grid">
+        <div class="loot-item loot-item-loading">
+          <p>Loading boss loot...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="boss-armor" class="modal">
+    <div class="modal-content">
+      <a href="#sr-boss-loot" class="close" aria-label="Close boss armor">x</a>
+      <h2>Boss Armor</h2>
+      <div class="loot-grid" id="boss-armor-grid">
+        <div class="loot-item loot-item-loading">
+          <p>Loading boss loot...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="copyright_div">
+    <h2 class="copyright">
+      SME MC Created by Snubs and Aden<br>
+      ©2026 SME MC. All rights reserved.
+    </h2>
+  </footer>
+  <script>
+    const links = document.querySelectorAll('.sidenav a[data-page]');
+    const sections = document.querySelectorAll('.wiki-section');
+    const empty = document.getElementById('wiki-empty');
+
+    const sidenav = document.getElementById('wiki-sidenav');
+    const sidenavToggle = document.getElementById('sidenav-toggle');
+
+    function hideAll() {
+      sections.forEach(sec => sec.style.display = 'none');
+      links.forEach(l => l.classList.remove('active'));
+      empty.style.display = 'flex';
+    }
+
+    hideAll();
+
+    links.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const page = link.dataset.page;
+
+        hideAll();
+
+        if (!page) return;
+
+        const target = document.getElementById(page);
+        if (target) {
+          empty.style.display = 'none';
+          target.style.display = 'block';
+          link.classList.add('active');
+          history.replaceState(null, '', `#${page}`);
+        }
+      });
+    });
+
+    if (location.hash) {
+      const hash = location.hash.substring(1);
+      const link = document.querySelector(`.sidenav a[data-page="${hash}"]`);
+      if (link) link.click();
+    }
+
+    if (sidenav && sidenavToggle) {
+      const CloseTheBar = () => {
+        sidenav.classList.remove('open');
+        sidenavToggle.classList.remove('open');
+        sidenavToggle.setAttribute('aria-expanded', 'false');
+      };
+
+      const Toggleit = () => {
+        const isOpen = sidenav.classList.toggle('open');
+        sidenavToggle.classList.toggle('open', isOpen);
+        sidenavToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      };
+
+      sidenavToggle.addEventListener('click', event => {
+        event.stopPropagation();
+        Toggleit();
+      });
+
+      document.addEventListener('click', event => {
+        if (!sidenav.classList.contains('open')) return;
+        const clickedInside = sidenav.contains(event.target) || sidenavToggle.contains(event.target);
+        if (!clickedInside) {
+          CloseTheBar();
+        }
+      });
+
+      sidenav.querySelectorAll('a[data-page]').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 900) {
+            CloseTheBar();
+          }
+        });
+      });
+    }
+  </script>
+  <script src="../js/LoadBossInfo.js"></script>
+  <script src="../js/LoadEnchants.js"></script>
+  <script src="../js/LoadBossLoot.js"></script>
+</body>
+</html>

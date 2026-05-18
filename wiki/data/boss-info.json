@@ -1,0 +1,109 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "prefix": "Infernal",
+      "spawnChance": "100%"
+    },
+    {
+      "level": 2,
+      "prefix": "Amber",
+      "spawnChance": "25%"
+    },
+    {
+      "level": 3,
+      "prefix": "Fury",
+      "spawnChance": "10%"
+    },
+    {
+      "level": 4,
+      "prefix": "Berserker",
+      "spawnChance": "5%"
+    },
+    {
+      "level": 5,
+      "prefix": "Colossus",
+      "spawnChance": "2.5%"
+    },
+    {
+      "level": 6,
+      "prefix": "Overlord",
+      "spawnChance": "1.25%"
+    },
+    {
+      "level": 7,
+      "prefix": "Snubify'd",
+      "spawnChance": "0.67%"
+    },
+    {
+      "level": 8,
+      "prefix": "Rainify'd",
+      "spawnChance": "0.33%"
+    }
+  ],
+  "eligibleMobs": [
+    "PigZombie",
+    "Zombie",
+    "Skeleton",
+    "Spider",
+    "CaveSpider",
+    "Creeper",
+    "Witch",
+    "Enderman",
+    "Slime",
+    "LavaSlime",
+    "Ghast",
+    "Giant",
+    "SilverFish",
+    "Blaze"
+  ],
+  "enabledAbilities": [
+    "Poisonous",
+    "Armoured",
+    "Blinding",
+    "Withering",
+    "Thief",
+    "Quicksand",
+    "Bullwark",
+    "Rust",
+    "Sapper",
+    "1Up",
+    "Cloaked",
+    "Ender",
+    "Ghastly",
+    "Lifesteal",
+    "Sprint",
+    "Storm",
+    "Webber",
+    "Vengeance",
+    "Weakness",
+    "Berserk",
+    "Explode",
+    "Potions",
+    "Mama",
+    "Molten",
+    "Archer",
+    "Necromancer",
+    "Gravity",
+    "Flying",
+    "Mounted",
+    "Ghost",
+    "Confusing"
+  ],
+  "spawnReasons": [
+    "BREEDING",
+    "BUILD_WITHER",
+    "CHUNK_GEN",
+    "CUSTOM",
+    "DEFAULT",
+    "INFECTION",
+    "LIGHTNING",
+    "NATURAL",
+    "NETHER_PORTAL",
+    "OCELOT_BABY",
+    "REINFORCEMENTS",
+    "SILVERFISH_BLOCK",
+    "SLIME_SPLIT",
+    "VILLAGE_INVASION"
+  ]
+}
