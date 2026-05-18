@@ -1,6 +1,6 @@
 RewriteEngine On
 
-# ignore this aden, this is server side stuff idk if it will work tho rn
+# fixes trailing slash issues
 RewriteCond %{THE_REQUEST} \s/+(.+)\.html[\s?]
 RewriteRule ^ %1 [R=301,L]
 
