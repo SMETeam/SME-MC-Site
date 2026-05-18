@@ -1,5 +1,5 @@
 (() => {
-  const API_URL = 'https://api.sme-mc.us';
+  const API_URL = 'https://api.sme-mc.us?' + Date.now(); // prevent caching
   const IGNORED_USERS = new Set([
     // ur not admin lol
     'rain',
