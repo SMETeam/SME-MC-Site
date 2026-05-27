@@ -122,6 +122,11 @@
     <section id="sr-boss-info" class="wiki-section" style="display:none;">
       <h2 class="headline">Boss Info</h2>
 
+      <!-- a note-->
+      <p class="boss-loot-note">
+        Bosses are powerful mobs that spawn in the world and drop unique loot. They have different levels, abilities, and spawn chances. Learning about them can help you prepare for battles and know what to expect when you encounter one. They spawn 1/600 mobs in the world, so they can be pretty common but also very dangerous! <b>On weekends they have a 2x increase in spawn rate, so keep an eye out!</b>
+      </p>
+
       <div class="boss-info-layout">
         <article class="boss-info-panel boss-info-panel-wide">
           <h3>Boss Levels</h3>
@@ -256,19 +261,89 @@
     <!-- Economy -->
     <section id="sr-eco" class="wiki-section" style="display:none;">
       <h2 class="headline">Economy Info</h2>
-      <p>Ah yes, the most confusing part of the server.. well at least for me..<br>You can earn money a LOT of ways; This includes <a style="color: aqua">Killing Mobs and Players</a>, <a style="color: aqua">Orders</a>, <a style="color: aqua">Auction</a>, <a style="color: aqua">Season Pass</a>, and <a style="color: aqua">Shop</a>.</p>
-      <hr>
-      <p><h3>Mobs</h3> Depending on the entity it is, can drop different ammounts. Now we will not tell you here so you have to figure it out your self.</p> <img class="wiki-media" src="../img/wiki/mob-kill.png">
-      <hr class="short">
-      <p><h3>Orders</h3>This is one way you can earn money very fast! If a player is desperately looking for a item usually they tend to put out some orders! To check simply run <pre>"/orders" (more info on the /help command)</pre> to see the list of current orders! Then simply deliver the item that is needed by the player and boom! You got a cash out!</p> <img class="wiki-media" src="../img/wiki/orders.png">
-      <hr class="short">
-      <p><h3>Auction</h3> Got your self a neat item? Maybe even two of them? Well, selling it may be a good option! Not on the normal shop but on Auction! The Auction is a place where players can sell their items for what ever they want! Ore, Bags, Swords, you name it! You can sell EVERYTHING here! Simply run <pre>"/ah" or to sell '/ah sell [ammount] [price]" (more info on the /help command)</pre> and you are ready to start selling/purchasing!.</p> <img class="wiki-media" src="../img/wiki/auction.png">
-      <hr class="short">
-      <p><h3>Shop</h3>The shop, the main way to earn money. The shop can sell MOST items, even ones not for sale! But at a catch.. if you sell a Diamond for example and it gives 500$, after selling that diamond the price will go down.. Why? To prevent inflation of the market if someone where to buy a bunch of items. To start using the shop just run<pre>"/shop" or to sell '/sellgui" (more info on the /help command)</pre></p> <img class="wiki-media" src="../img/wiki/shop.png">
-      <hr class="short">
-      <p><h3>Fishing!</h3> Fishing is a very good way to earn some extra cash! You can get some pretty good fish from fishing, depending on the size and rareity of the fish you can get a good amount of cash! To start fishing just get yourself a rod and find some water and start fishing! </p> <img class="wiki-media" src="../img/wiki/fish-shop.png">
-      <hr class="short">
-      <p><h3>Rotating Snubby's Shop</h3> This shop has a rotating selection of items for sale! From common to very very rare! However they are limited stock... so be quick! Many players come here to find unique items!</p> <img class="wiki-media" src="../img/wiki/snubbys-shop.png">
+      <p class="economy-note">
+        Ah yes, money. Survival has a lot of ways to make cash, like mobs, orders,
+        auction, season pass, shop, fishing, maybe spending on the Snubby's shop!
+      </p>
+
+      <div class="economy-grid">
+        <article class="economy-card">
+          <img src="../img/wiki/mob-kill.png" alt="Player earning money from a mob kill">
+          <div class="economy-card-body">
+            <h3>Mobs and Players</h3>
+            <p>
+              Some mobs and players can drop money when you kill them. Different things can pay
+              different amounts, so you will have to figure out what is worth farming.
+            </p>
+          </div>
+        </article>
+
+        <article class="economy-card">
+          <img src="../img/wiki/orders.png" alt="Orders menu">
+          <div class="economy-card-body">
+            <h3>Orders</h3>
+            <p>
+              Orders are items that other players are looking for. If you have the item they need,
+              deliver it and get paid.
+            </p>
+            <div class="command-row">
+              <code>/orders</code>
+            </div>
+          </div>
+        </article>
+
+        <article class="economy-card">
+          <img src="../img/wiki/auction.png" alt="Auction house menu">
+          <div class="economy-card-body">
+            <h3>Auction</h3>
+            <p>
+              Got something good but don't want to sell it to the normal shop? Put it on auction
+              and let another player buy it.
+            </p>
+            <div class="command-row">
+              <code>/ah</code>
+              <code>/ah sell [amount] [price]</code>
+            </div>
+          </div>
+        </article>
+
+        <article class="economy-card">
+          <img src="../img/wiki/shop.png" alt="Server shop menu">
+          <div class="economy-card-body">
+            <h3>Shop</h3>
+            <p>
+              The shop is the main way to sell items. Prices can go down after people sell a lot
+              of something, so don't expect every item to stay the same forever.
+            </p>
+            <div class="command-row">
+              <code>/shop</code>
+              <code>/sellgui</code>
+            </div>
+          </div>
+        </article>
+
+        <article class="economy-card">
+          <img src="../img/wiki/fish-shop.png" alt="Fishing shop menu">
+          <div class="economy-card-body">
+            <h3>Fishing</h3>
+            <p>
+              Fishing is a chill way to make extra cash. Better and rarer fish can sell for more,
+              so grab a rod and find some water.
+            </p>
+          </div>
+        </article>
+
+        <article class="economy-card">
+          <img src="../img/wiki/snubbys-shop.png" alt="Snubby's rotating shop">
+          <div class="economy-card-body">
+            <h3>Rotating Snubby's Shop</h3>
+            <p>
+              Snubby's shop has a rotating selection of items. Some stuff is rare and stock is
+              limited, so check it before everything good is gone.
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
 
 <!----------------------------------------- Survival Section Finished ------------------------------------------>
@@ -282,27 +357,51 @@
 
     <section id="creative" class="wiki-section" style="display:none;">
       <h2 class="headline">Creative</h2>
-      Creative is a gamemode that you are given a plot to do what every you want! You can even use <bold>WorldEdit</bold>, you are unsure how to use it go <a href="https://worldedit.enginehub.org/en/latest/">here</a>.<hr><img class="wiki-media" src="../img/wiki/creative.png">
+      Creative is a gamemode that you are given a plot to do what every you want! You can even use <bold>WorldEdit</bold>, you are unsure how to use it go <a href="https://worldedit.enginehub.org/en/latest/">here</a>.<hr><img class="wiki-media" src="../img/gamemodes/creative.png"><hr>
     </section>
 
     <section id="oneblock" class="wiki-section" style="display:none;">
       <h2 class="headline">One Block</h2>
-      <p class="under-construction">This page is under construction. Please check back later!</p>
+      <div class="mode-preview mode-preview-oneblock">
+        <h3>This page is still being worked on.</h3>
+        <p>
+          One Block starts you on one block and you slowly build out from there. For now,
+          make a safe platform, save your better drops, and don't throw away stuff you might need later.
+        </p>
+      </div>
     </section>
 
     <section id="duels" class="wiki-section" style="display:none;">
       <h2 class="headline">Duels</h2>
-      <p class="under-construction">This page is under construction. Please check back later!</p>
+      <div class="mode-preview mode-preview-duels">
+        <h3>This page is still being worked on.</h3>
+        <p>
+          Duels is where you can fight other players in quick PvP matches. There are different
+          modes and kits, so check what you are joining before running in.
+        </p>
+      </div>
     </section>
 
     <section id="bed-wars" class="wiki-section" style="display:none;">
       <h2 class="headline">Bed Wars</h2>
-      <p class="under-construction">This page is under construction. Please check back later!</p>
+      <div class="mode-preview mode-preview-bedwars">
+        <h3>This page is still being worked on.</h3>
+        <p>
+          Bed Wars is about protecting your bed while trying to break everyone else's. Save your
+          resources, upgrade when you can, and please don't leave the bed wide open.
+        </p>
+      </div>
     </section>
 
     <section id="murder-mystery" class="wiki-section" style="display:none;">
       <h2 class="headline">Murder Mystery</h2>
-      <p class="under-construction">This page is under construction. Please check back later!</p>
+      <div class="mode-preview mode-preview-murder">
+        <h3>This page is still being worked on.</h3>
+        <p>
+          Murder Mystery is about figuring out who the murderer is before it is too late. If you
+          are innocent, stay aware. If you are detective, pay attention before shooting.
+        </p>
+      </div>
     </section>
   </main>
 
