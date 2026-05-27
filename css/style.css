@@ -868,3 +868,15 @@ body {
 .sub {
     font-size: 25px;
 }
+
+.main5_donate_button {
+    font-family: Minecraftia;
+    margin-top: .75rem;
+    border: 1px solid var(--accent1);
+    background-color: var(--accent2_transp);
+    color: #fff;
+    border-radius: var(--roundness);
+    padding: .45rem .75rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
