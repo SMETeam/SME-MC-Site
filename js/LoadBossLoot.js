@@ -34,11 +34,11 @@ function CreateBossLootCard(item) {
     card.className = 'loot-item';
 
     const image = document.createElement('img');
-    image.src = item.image || '../img/construction.jpg';
+    image.src = item.image || '../img/construction.png';
     image.alt = item.name || 'Boss loot';
     image.onerror = () => {
         image.onerror = null;
-        image.src = '../img/construction.jpg';
+        image.src = '../img/construction.png';
     };
     card.appendChild(image);
 
