@@ -1,8 +1,6 @@
 const bossInfoLevels = document.getElementById('boss-levels-body');
 const bossInfoMobs = document.getElementById('boss-mobs-list');
 const bossInfoAbilities = document.getElementById('boss-abilities-list');
-const bossInfoSpawnReasons = document.getElementById('boss-spawn-reasons-list');
-const bossInfoRules = document.getElementById('boss-rule-list');
 
 function RenderBossLevels(levels) {
     bossInfoLevels.innerHTML = '';
@@ -55,38 +53,12 @@ function RenderBossPills(container, values, emptyMessage) {
     });
 }
 
-function RenderBossRules(rules) {
-    bossInfoRules.innerHTML = '';
-
-    if (!Array.isArray(rules) || rules.length === 0) {
-        const message = document.createElement('p');
-        message.textContent = 'No boss rules found.';
-        bossInfoRules.appendChild(message);
-        return;
-    }
-
-    rules.forEach(rule => {
-        const row = document.createElement('div');
-        row.className = 'boss-rule-row';
-
-        const label = document.createElement('strong');
-        label.textContent = rule.label || 'Rule';
-        row.appendChild(label);
-
-        const value = document.createElement('span');
-        value.textContent = rule.value || '';
-        row.appendChild(value);
-
-        bossInfoRules.appendChild(row);
-    });
-}
-
 function ShowBossInfoError(message) {
     if (bossInfoLevels) {
         bossInfoLevels.innerHTML = `<tr><td colspan="3">${message}</td></tr>`;
     }
 
-    [bossInfoMobs, bossInfoAbilities, bossInfoSpawnReasons].forEach(container => {
+    [bossInfoMobs, bossInfoAbilities].forEach(container => {
         if (!container) {
             return;
         }
@@ -98,12 +70,6 @@ function ShowBossInfoError(message) {
         container.appendChild(pill);
     });
 
-    if (bossInfoRules) {
-        bossInfoRules.innerHTML = '';
-        const text = document.createElement('p');
-        text.textContent = message;
-        bossInfoRules.appendChild(text);
-    }
 }
 
 fetch('./data/boss-info.json')
@@ -131,13 +97,6 @@ fetch('./data/boss-info.json')
             RenderBossPills(bossInfoAbilities, data.enabledAbilities, 'No abilities listed.');
         }
 
-        if (bossInfoSpawnReasons) {
-            RenderBossPills(bossInfoSpawnReasons, data.spawnReasons, 'No spawn reasons listed.');
-        }
-
-        if (bossInfoRules) {
-            RenderBossRules(data.rules);
-        }
     })
     .catch(() => {
         ShowBossInfoError('Unable to load boss info right now.');

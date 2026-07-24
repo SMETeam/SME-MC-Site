@@ -250,14 +250,6 @@
           "image": "../img/wiki/items/bow_standby.png"
         },
         {
-          "configId": 67,
-          "itemId": 399,
-          "name": "Nether Star",
-          "summary": "From the depths of the Nether!",
-          "dropLevels": [],
-          "image": "../img/wiki/items/nether_star.png"
-        },
-        {
           "configId": 76,
           "itemId": 267,
           "name": "Poisoned Blade",
@@ -304,7 +296,14 @@
           "itemId": 279,
           "name": "Executioner's Axe",
           "summary": "Finishes the job",
-          "dropLevels": [],
+          "dropLevels": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
           "image": "../img/wiki/items/diamond_axe.png"
         },
         {
@@ -312,7 +311,13 @@
           "itemId": 283,
           "name": "Nature's Sword",
           "summary": "Grows with you",
-          "dropLevels": [],
+          "dropLevels": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
           "image": "../img/wiki/items/gold_sword.png"
         },
         {
@@ -354,12 +359,92 @@
           "summary": "Shines bright",
           "dropLevels": [],
           "image": "../img/wiki/items/diamond_hoe.png"
+        },
+        {
+          "configId": 203,
+          "itemId": 276,
+          "name": "Frostbite Fang",
+          "summary": "Slows victims on hit",
+          "dropLevels": [
+            6,
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/diamond_sword.png"
+        },
+        {
+          "configId": 204,
+          "itemId": 279,
+          "name": "Plague Cleaver",
+          "summary": "Poisons victims on hit",
+          "dropLevels": [
+            5,
+            6,
+            7
+          ],
+          "image": "../img/wiki/items/diamond_axe.png"
+        },
+        {
+          "configId": 205,
+          "itemId": 283,
+          "name": "Leech Dagger",
+          "summary": "Heals the attacker on hit",
+          "dropLevels": [
+            4,
+            5,
+            6
+          ],
+          "image": "../img/wiki/items/gold_sword.png"
+        },
+        {
+          "configId": 206,
+          "itemId": 369,
+          "name": "Witchbone Wand",
+          "summary": "Weakens victims on hit",
+          "dropLevels": [
+            5,
+            6,
+            7
+          ],
+          "image": "../img/wiki/items/blaze_rod.png"
+        },
+        {
+          "configId": 207,
+          "itemId": 267,
+          "name": "Nightfall Blade",
+          "summary": "Blinds victims on hit",
+          "dropLevels": [
+            6,
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/iron_sword.png"
+        },
+        {
+          "configId": 212,
+          "itemId": 261,
+          "name": "Mindbreak Bow",
+          "summary": "Confuses victims on hit",
+          "dropLevels": [
+            6,
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/bow_standby.png"
+        },
+        {
+          "configId": 213,
+          "itemId": 276,
+          "name": "Ice Blade",
+          "summary": "Colder than Icebergs",
+          "dropLevels": [],
+          "image": "../img/wiki/items/diamond_sword.png"
         }
       ]
     },
     {
-      "id": "boss-potions",
-      "title": "Boss Potions",
+      "id": "boss-items",
+      "title": "Boss Items",
       "items": [
         {
           "configId": 34,
@@ -386,6 +471,14 @@
           "image": "../img/wiki/items/apple_golden.png"
         },
         {
+          "configId": 67,
+          "itemId": 399,
+          "name": "Nether Star",
+          "summary": "From the depths of the Nether!",
+          "dropLevels": [],
+          "image": "../img/wiki/items/nether_star.png"
+        },
+        {
           "configId": 68,
           "itemId": 373,
           "name": "Poison Potion",
@@ -410,114 +503,32 @@
           "image": "../img/wiki/items/potion_bottle_splash.png"
         },
         {
-          "configId": 75,
-          "itemId": 382,
-          "name": "Hunger Charm",
-          "summary": "Hunger no more",
+          "configId": 112,
+          "itemId": 322,
+          "name": "Golden Apple",
           "dropLevels": [
+            2
+          ],
+          "image": "../img/wiki/items/apple_golden.png"
+        },
+        {
+          "configId": 113,
+          "itemId": 373,
+          "name": "A Random Potion!",
+          "summary": "Drops with one random potion effect.",
+          "dropLevels": [],
+          "image": "../img/wiki/items/potion_bottle_splash.png"
+        },
+        {
+          "configId": 202,
+          "itemId": 449,
+          "name": "Totem of Undying",
+          "dropLevels": [
+            6,
             7,
             8
           ],
-          "image": "../img/wiki/items/melon_speckled.png"
-        },
-        {
-          "configId": 78,
-          "itemId": 414,
-          "name": "Bunny Charm",
-          "summary": "Jump Higher",
-          "dropLevels": [
-            4,
-            5
-          ],
-          "image": "../img/wiki/items/rabbit_foot.png"
-        },
-        {
-          "configId": 79,
-          "itemId": 397,
-          "name": "Wither Charm",
-          "summary": "Wither all ye fight!",
-          "dropLevels": [
-            7
-          ],
-          "image": "../img/wiki/items/wither_skull.png"
-        },
-        {
-          "configId": 80,
-          "itemId": 402,
-          "name": "Cloak Charm",
-          "summary": "They will see you not",
-          "dropLevels": [],
-          "image": "../img/wiki/items/fireworks_charge.png"
-        },
-        {
-          "configId": 81,
-          "itemId": 352,
-          "name": "Weakness Charm",
-          "summary": "Weaken your foes",
-          "dropLevels": [
-            6
-          ],
-          "image": "../img/wiki/items/bone.png"
-        },
-        {
-          "configId": 82,
-          "itemId": 410,
-          "name": "Aqua Charm",
-          "summary": "Become the fish...",
-          "dropLevels": [
-            4
-          ],
-          "image": "../img/wiki/items/prismarine_crystals.png"
-        },
-        {
-          "configId": 83,
-          "itemId": 409,
-          "name": "Guardian Tooth",
-          "summary": "It can only make you stronger!",
-          "dropLevels": [
-            4,
-            5
-          ],
-          "image": "../img/wiki/items/prismarine_shard.png"
-        },
-        {
-          "configId": 84,
-          "itemId": 19,
-          "name": "Soggy Sponge",
-          "summary": "",
-          "dropLevels": [],
-          "image": "../img/wiki/items/sponge.png"
-        },
-        {
-          "configId": 85,
-          "itemId": 415,
-          "name": "Kangaroo Strength",
-          "summary": "Cowabunga! So strong! but... so slow...",
-          "dropLevels": [
-            7,
-            8
-          ],
-          "image": "../img/wiki/items/rabbit_hide.png"
-        },
-        {
-          "configId": 86,
-          "itemId": 425,
-          "name": "Arms Trophy",
-          "summary": "You feel a bit more powerful...",
-          "dropLevels": [
-            8
-          ],
-          "image": "../img/wiki/items/banner_base.png"
-        },
-        {
-          "configId": 87,
-          "itemId": 378,
-          "name": "Sunscreen",
-          "summary": "Protect you from the heat!",
-          "dropLevels": [
-            6
-          ],
-          "image": "../img/wiki/items/magma_cream.png"
+          "image": "../img/wiki/items/totem.png"
         }
       ]
     },
@@ -932,6 +943,169 @@
           "summary": "Soft and quiet",
           "dropLevels": [],
           "image": "../img/wiki/items/gold_boots.png"
+        },
+        {
+          "configId": 201,
+          "itemId": 443,
+          "name": "Elytra",
+          "dropLevels": [
+            6,
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/elytra.png"
+        }
+      ]
+    },
+    {
+      "id": "boss-charms",
+      "title": "Boss Charms",
+      "items": [
+        {
+          "configId": 75,
+          "itemId": 382,
+          "name": "Hunger Charm",
+          "summary": "Hunger no more",
+          "dropLevels": [
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/melon_speckled.png"
+        },
+        {
+          "configId": 78,
+          "itemId": 414,
+          "name": "Bunny Charm",
+          "summary": "Jump Higher",
+          "dropLevels": [
+            4,
+            5
+          ],
+          "image": "../img/wiki/items/rabbit_foot.png"
+        },
+        {
+          "configId": 79,
+          "itemId": 397,
+          "name": "Wither Charm",
+          "summary": "Wither all ye fight!",
+          "dropLevels": [
+            7
+          ],
+          "image": "../img/wiki/items/wither_skull.png"
+        },
+        {
+          "configId": 80,
+          "itemId": 402,
+          "name": "Cloak Charm",
+          "summary": "They will see you not",
+          "dropLevels": [],
+          "image": "../img/wiki/items/fireworks_charge.png"
+        },
+        {
+          "configId": 81,
+          "itemId": 352,
+          "name": "Weakness Charm",
+          "summary": "Weaken your foes",
+          "dropLevels": [
+            6
+          ],
+          "image": "../img/wiki/items/bone.png"
+        },
+        {
+          "configId": 82,
+          "itemId": 410,
+          "name": "Aqua Charm",
+          "summary": "Become the fish...",
+          "dropLevels": [
+            4
+          ],
+          "image": "../img/wiki/items/prismarine_crystals.png"
+        },
+        {
+          "configId": 83,
+          "itemId": 409,
+          "name": "Guardian Tooth",
+          "summary": "It can only make you stronger!",
+          "dropLevels": [
+            4,
+            5
+          ],
+          "image": "../img/wiki/items/prismarine_shard.png"
+        },
+        {
+          "configId": 84,
+          "itemId": 19,
+          "name": "Soggy Sponge",
+          "summary": "",
+          "dropLevels": [],
+          "image": "../img/wiki/items/sponge.png"
+        },
+        {
+          "configId": 85,
+          "itemId": 415,
+          "name": "Kangaroo Strength",
+          "summary": "Cowabunga! So strong! but... so slow...",
+          "dropLevels": [
+            7,
+            8
+          ],
+          "image": "../img/wiki/items/rabbit_hide.png"
+        },
+        {
+          "configId": 86,
+          "itemId": 425,
+          "name": "Arms Trophy",
+          "summary": "You feel a bit more powerful...",
+          "dropLevels": [
+            8
+          ],
+          "image": "../img/wiki/items/banner_base.png"
+        },
+        {
+          "configId": 87,
+          "itemId": 378,
+          "name": "Sunscreen",
+          "summary": "Protect you from the heat!",
+          "dropLevels": [
+            6
+          ],
+          "image": "../img/wiki/items/magma_cream.png"
+        },
+        {
+          "configId": 208,
+          "itemId": 378,
+          "name": "Berserker Charm",
+          "summary": "Hold for extra strength",
+          "dropLevels": [
+            4,
+            5,
+            6
+          ],
+          "image": "../img/wiki/items/magma_cream.png"
+        },
+        {
+          "configId": 209,
+          "itemId": 370,
+          "name": "Warding Tear",
+          "summary": "Hold for damage resistance",
+          "dropLevels": [
+            5,
+            6,
+            7
+          ],
+          "image": "../img/wiki/items/tear.png"
+        },
+        {
+          "configId": 211,
+          "itemId": 353,
+          "name": "Storm Sugar",
+          "summary": "Hold for extra speed",
+          "dropLevels": [
+            3,
+            4,
+            5
+          ],
+          "image": "../img/wiki/items/sugar.png"
         }
       ]
     }

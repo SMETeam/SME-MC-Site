@@ -1,13 +1,15 @@
 const bosslootSpots = {
     'boss-tools': document.getElementById('boss-tools-grid'),
-    'boss-potions': document.getElementById('boss-potions-grid'),
-    'boss-armor': document.getElementById('boss-armor-grid')
+    'boss-items': document.getElementById('boss-items-grid'),
+    'boss-armor': document.getElementById('boss-armor-grid'),
+    'boss-charms': document.getElementById('boss-charms-grid')
 };
 
 const bossLootCounts = {
     'boss-tools': document.getElementById('boss-tools-count'),
-    'boss-potions': document.getElementById('boss-potions-count'),
-    'boss-armor': document.getElementById('boss-armor-count')
+    'boss-items': document.getElementById('boss-items-count'),
+    'boss-armor': document.getElementById('boss-armor-count'),
+    'boss-charms': document.getElementById('boss-charms-count')
 };
 
 function FormatBossDropLevels(levels) {

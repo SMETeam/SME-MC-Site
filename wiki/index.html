@@ -125,7 +125,7 @@
 
       <!-- a note-->
       <p class="boss-loot-note">
-        Bosses are powerful mobs that spawn in the world and drop unique loot. They have different levels, abilities, and spawn chances. Learning about them can help you prepare for battles and know what to expect when you encounter one. They spawn 1/600 mobs in the world, so they can be pretty common but also very dangerous! <b>On weekends they have a 2x increase in spawn rate, so keep an eye out!</b>
+        Bosses are powerful mobs that spawn in the world and drop unique loot. They have different levels, abilities, and spawn chances. Learning about them can help you prepare for battles and know what to expect when you encounter one. <b>On weekends they have a 2x increase in spawn rate, so keep an eye out!</b>
       </p>
 
       <div class="boss-info-layout">
@@ -172,25 +172,30 @@
 
       <div class="boss-menu">
         <a href="#boss-tools" class="boss-card left">
-          <img src="../img/construction.png" alt="Boss Tools">
+          <img src="../img/wiki/items/diamond_sword.png" alt="Boss Tools">
           <span>Boss Tools</span>
           <small id="boss-tools-count">Loading...</small>
         </a>
 
-        <a href="#boss-potions" class="boss-card center">
-          <img src="../img/construction.png" alt="Boss Potions">
-          <span>Boss Potions</span>
-          <small id="boss-potions-count">Loading...</small>
+        <a href="#boss-items" class="boss-card center">
+          <img src="../img/wiki/items/nether_star.png" alt="Boss Items">
+          <span>Boss Items</span>
+          <small id="boss-items-count">Loading...</small>
         </a>
 
         <a href="#boss-armor" class="boss-card right">
-          <img src="../img/construction.png" alt="Boss Armor">
+          <img src="../img/wiki/items/elytra.png" alt="Boss Armor">
           <span>Boss Armor</span>
           <small id="boss-armor-count">Loading...</small>
         </a>
+
+        <a href="#boss-charms" class="boss-card">
+          <img src="../img/wiki/items/totem.png" alt="Boss Charms">
+          <span>Boss Charms</span>
+          <small id="boss-charms-count">Loading...</small>
+        </a>
       </div>
     </section>
-
 
     <!-- Enchants -->
     <section id="sr-enchants" class="wiki-section" style="display:none;">
@@ -422,11 +427,11 @@
     </div>
   </div>
 
-  <div id="boss-potions" class="modal">
+  <div id="boss-items" class="modal">
     <div class="modal-content">
-      <a href="#sr-boss-loot" class="close" aria-label="Close boss potions">x</a>
-      <h2>Boss Potions</h2>
-      <div class="loot-grid" id="boss-potions-grid">
+      <a href="#sr-boss-loot" class="close" aria-label="Close boss items">x</a>
+      <h2>Boss Items</h2>
+      <div class="loot-grid" id="boss-items-grid">
         <div class="loot-item loot-item-loading">
           <p>Loading boss loot...</p>
         </div>
@@ -439,6 +444,18 @@
       <a href="#sr-boss-loot" class="close" aria-label="Close boss armor">x</a>
       <h2>Boss Armor</h2>
       <div class="loot-grid" id="boss-armor-grid">
+        <div class="loot-item loot-item-loading">
+          <p>Loading boss loot...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="boss-charms" class="modal">
+    <div class="modal-content">
+      <a href="#sr-boss-loot" class="close" aria-label="Close boss charms">x</a>
+      <h2>Boss Charms</h2>
+      <div class="loot-grid" id="boss-charms-grid">
         <div class="loot-item loot-item-loading">
           <p>Loading boss loot...</p>
         </div>

@@ -48,7 +48,9 @@
     "levels": [
       1,
       2,
-      3
+      3,
+      4,
+      5
     ]
   },
   {
@@ -204,7 +206,7 @@
   },
   {
     "name": "getaway",
-    "description": "Chance to gain more movement speed below &a20%&7 health when dealt with damage",
+    "description": "Chance to gain more movement speed below 20% health when dealt with damage",
     "levels": [
       1,
       2,
@@ -585,6 +587,88 @@
   {
     "name": "telepathy",
     "description": "Automatically places blocks broken by tools in your inventory.",
+    "levels": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "name": "orebound",
+    "description": "Chance to multiply drops from overworld ores.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "cultivator",
+    "description": "Chance to multiply drops from crops.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "lumbering",
+    "description": "Chance to gain extra logs while chopping trees.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "quarrying",
+    "description": "Chance to gain extra sand, gravel, or clay.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "creeperbane",
+    "description": "Deal more damage to creepers.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "witchbane",
+    "description": "Deal more damage to witches.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "guardianbane",
+    "description": "Deal more damage to guardians.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "fortitude",
+    "description": "Chance to reduce incoming damage.",
+    "levels": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "safeguard",
+    "description": "Reduces damage dealt to you.",
     "levels": [
       1,
       2,
