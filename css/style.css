@@ -869,7 +869,16 @@ body {
     font-size: 25px;
 }
 
-.main5_donate_button {
+.main5_store_description {
+    max-width: 48rem;
+    margin: .75rem auto 0;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.main5_store_button {
+    display: inline-block;
     font-family: Minecraftia;
     margin-top: .75rem;
     border: 1px solid var(--accent1);
@@ -879,4 +888,5 @@ body {
     padding: .45rem .75rem;
     cursor: pointer;
     font-size: 1.7rem;
+    text-decoration: none;
 }
