@@ -26,11 +26,11 @@
   };
 
   const adminContainer = document.querySelector('.main5_admin_div');
-  const supporterContainer = document.querySelector('.main5_supporter_div');
-  const recentSupporterContainer =
-    document.querySelector('.main5_recent_supporter_div') || supporterContainer;
-  const allSupporterContainer = document.querySelector('.main5_all_supporter_div');
-  if (!adminContainer && !recentSupporterContainer && !allSupporterContainer) {
+  const scholarContainer = document.querySelector('.main5_scholar_div');
+  const recentScholarContainer =
+    document.querySelector('.main5_recent_scholar_div') || scholarContainer;
+  const allScholarContainer = document.querySelector('.main5_all_scholar_div');
+  if (!adminContainer && !recentScholarContainer && !allScholarContainer) {
     return;
   }
 
@@ -61,25 +61,25 @@
     }
   ];
 
-  const supporters = [
+  const scholars = [
     {
       key: 'sup',
-      label: '[Supporter]',
-      rankClass: 'main5_supporters_description_rank_supporter',
+      label: '[Scholar]',
+      rankClass: 'main5_scholars_description_rank_scholar',
       max: 1,
       overridecolor: '3'
     },
     {
       key: 'supplus',
-      label: '[Supporter+]',
-      rankClass: 'main5_supporters_description_rank_supporter',
+      label: '[Scholar+]',
+      rankClass: 'main5_scholars_description_rank_scholar',
       max: 1,
       overridecolor: 'b'
     },
     {
       key: 'sup-higher',
       label: '',
-      rankClass: 'main5_supporters_description_rank_supporter',
+      rankClass: 'main5_scholars_description_rank_scholar',
       max: 1,
       useMeta: true
     }
@@ -132,9 +132,9 @@
     }
   }
 
-  function lookforsupporters(data) {
+  function lookforscholars(data) {
     const lookup = new Map();
-    supporters.forEach((group) => {
+    scholars.forEach((group) => {
       const entries = safeArray(data[group.key]);
       const priority = SUPPORTER_PRIORITY[group.key] || 0;
       entries.forEach((entry) => {
@@ -188,20 +188,20 @@
     return card;
   }
 
-  function createsupportercard(name, config, meta) {
+  function createscholarcard(name, config, meta) {
     const card = document.createElement('div');
-    card.className = 'main5_supporters_div';
+    card.className = 'main5_scholars_div';
 
     const img = document.createElement('img');
-    img.className = 'main5_supporters_img';
+    img.className = 'main5_scholars_img';
     img.alt = `${name} head`;
     img.src = avatarUrl(name);
 
     const descWrap = document.createElement('div');
-    descWrap.className = 'main5_supporters_description_div';
+    descWrap.className = 'main5_scholars_description_div';
 
     const rank = document.createElement('a');
-    rank.className = `main5_supporters_description_rank ${config.rankClass}`;
+    rank.className = `main5_scholars_description_rank ${config.rankClass}`;
     rank.textContent = meta && meta.prefix ? pullcolorcodes(meta.prefix) : config.label;
     const prefixColor =
       meta && meta.prefix
@@ -213,7 +213,7 @@
     }
 
     const title = document.createElement('a');
-    title.className = 'main5_supporters_description_title';
+    title.className = 'main5_scholars_description_title';
     title.textContent = name;
 
     descWrap.appendChild(rank);
@@ -245,24 +245,24 @@
         });
       }
 
-      if (supporterContainer && supporterContainer !== recentSupporterContainer) {
-        clearChildren(supporterContainer);
-        supporters.forEach((group) => {
+      if (scholarContainer && scholarContainer !== recentScholarContainer) {
+        clearChildren(scholarContainer);
+        scholars.forEach((group) => {
           const members = safeArray(data[group.key]).slice(0, group.max);
           members.forEach((entry) => {
             if (group.useMeta) {
               const name = entry && typeof entry === 'object' ? entry.name : null;
               if (name && !isIgnored(name)) {
-                supporterContainer.appendChild(createsupportercard(name, group, entry));
+                scholarContainer.appendChild(createscholarcard(name, group, entry));
               }
             } else if (typeof entry === 'string' && !isIgnored(entry)) {
-              supporterContainer.appendChild(createsupportercard(entry, group, null));
+              scholarContainer.appendChild(createscholarcard(entry, group, null));
             }
           });
         });
       }
 
-      const lookup = lookforsupporters(data);
+      const lookup = lookforscholars(data);
       const recentSeen = new Set();
       const recentEntries = [];
       for (const name of safeArray(data.recent)) {
@@ -270,34 +270,34 @@
         if (!normalized || recentSeen.has(normalized) || isIgnored(name)) {
           continue;
         }
-        const supporter = lookup.get(normalized);
-        if (!supporter) {
+        const scholar = lookup.get(normalized);
+        if (!scholar) {
           continue;
         }
         recentSeen.add(normalized);
-        recentEntries.push(supporter);
+        recentEntries.push(scholar);
         if (recentEntries.length >= 3) {
           break;
         }
       }
 
-      if (recentSupporterContainer) {
-        clearChildren(recentSupporterContainer);
-        recentEntries.forEach((supporter) => {
-          recentSupporterContainer.appendChild(
-            createsupportercard(supporter.name, supporter.config, supporter.meta)
+      if (recentScholarContainer) {
+        clearChildren(recentScholarContainer);
+        recentEntries.forEach((scholar) => {
+          recentScholarContainer.appendChild(
+            createscholarcard(scholar.name, scholar.config, scholar.meta)
           );
         });
       }
 
-      if (allSupporterContainer) {
-        clearChildren(allSupporterContainer);
-        for (const [normalized, supporter] of lookup.entries()) {
-          if (recentSeen.has(normalized) || isIgnored(supporter.name)) {
+      if (allScholarContainer) {
+        clearChildren(allScholarContainer);
+        for (const [normalized, scholar] of lookup.entries()) {
+          if (recentSeen.has(normalized) || isIgnored(scholar.name)) {
             continue;
           }
-          allSupporterContainer.appendChild(
-            createsupportercard(supporter.name, supporter.config, supporter.meta)
+          allScholarContainer.appendChild(
+            createscholarcard(scholar.name, scholar.config, scholar.meta)
           );
         }
       }

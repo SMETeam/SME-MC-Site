@@ -98,14 +98,14 @@
       <sub style="text-align: center;">Note: All of these vary depending on the rank you have received.</sub>
       <div class="main2_features_div">
         <div class="main2_feature">
-          <img class="main2_feature_img" alt="Supporter Server" src="img/gamemodes/supporter.png">
-          <a class="main2_feature_headline">Supporter Server</a>
-          <a class="main2_feature_text">Access a private supporter-only server and events.</a>
+          <img class="main2_feature_img" alt="Scholar Server" src="img/gamemodes/scholar.png">
+          <a class="main2_feature_headline">Scholar Server</a>
+          <a class="main2_feature_text">Access a private scholar-only server and events.</a>
         </div>
         <div class="main2_feature">
           <img class="main2_feature_img" alt="XP Boost" src="img/construction.png">
           <a class="main2_feature_headline">XP Multipliers</a>
-          <a class="main2_feature_text">Earn more XP based on your supporter tier.</a>
+          <a class="main2_feature_text">Earn more XP based on your scholar tier.</a>
         </div>
         <div class="main2_feature">
           <img class="main2_feature_img" alt="In-Game Money" src="img/construction.png">
@@ -115,7 +115,7 @@
         <div class="main2_feature">
           <img class="main2_feature_img" alt="Enderchest Upgrade" src="img/construction.png">
           <a class="main2_feature_headline">Bigger Enderchest</a>
-          <a class="main2_feature_text">Increase enderchest storage across supporter ranks.</a>
+          <a class="main2_feature_text">Increase enderchest storage across scholar ranks.</a>
         </div>
         <div class="main2_feature">
           <img class="main2_feature_img" alt="Minigames" src="img/construction.png">
@@ -126,20 +126,20 @@
     </div>
     <div class="main5" id="roles">
       <br><br>
-      <a class="headline">Supporter roles</a><br>
+      <a class="headline">Scholar roles</a><br>
       <div class="main2_features_div">
         <div class="main2_feature">
-          <img class="main2_feature_img" alt="Supporter Tier" src="img/construction.png">
-          <a class="main2_feature_headline">Supporter</a>
+          <img class="main2_feature_img" alt="Scholar Tier" src="img/construction.png">
+          <a class="main2_feature_headline">Scholar</a>
           <a class="main2_feature_text">Entry tier perks and chat tag.</a>
         </div>
         <div class="main2_feature">
-          <img class="main2_feature_img" alt="Supporter Plus" src="img/gamemodes/supporter.png">
-          <a class="main2_feature_headline">Supporter+</a>
+          <img class="main2_feature_img" alt="Scholar Plus" src="img/gamemodes/scholar.png">
+          <a class="main2_feature_headline">Scholar+</a>
           <a class="main2_feature_text">More perks, bigger bonuses, and extra XP.</a>
         </div>
         <div class="main2_feature">
-          <img class="main2_feature_img" alt="Supporter Higher Tier" src="img/construction.png">
+          <img class="main2_feature_img" alt="Scholar Higher Tier" src="img/construction.png">
           <a class="main2_feature_headline">Snubporter</a>
           <a class="main2_feature_text">Top tier perks with the biggest rewards like colors, better role, etc..</a>
         </div>
@@ -150,7 +150,7 @@
     <div id="impact" class="main4">
       <a class="headline">Where your support goes</a>
       <div class="main4_dc_div">
-        <img class="main4_dc_widget" src="img/gamemodes/supporter.png" alt="SME MC supporter" width="350" height="350" style="object-fit: cover;">
+        <img class="main4_dc_widget" src="img/gamemodes/scholar.png" alt="SME MC scholar" width="350" height="350" style="object-fit: cover;">
         <div class="main4_dc_description_div">
           <a class="main4_dc_description_title">Server upkeep and events</a>
           <a class="main4_dc_description">
@@ -216,13 +216,13 @@
     </div>
     <div class="main5">
       <br>
-      <a class="main5_supporter_headline">Most Recent Donators!</a><br>
-      <div class="main5_supporter_div main5_recent_supporter_div"><!--api shit--></div>
+      <a class="main5_scholar_headline">Most Recent Donators!</a><br>
+      <div class="main5_scholar_div main5_recent_scholar_div"><!--api shit--></div>
     </div>
 
     <div class="main5">
-      <a class="main5_supporter_headline">All Donators</a><br>
-      <div class="main5_supporter_div main5_all_supporter_div"><!--api shit--></div>
+      <a class="main5_scholar_headline">All Donators</a><br>
+      <div class="main5_scholar_div main5_all_scholar_div"><!--api shit--></div>
     </div>
   </div>
 
