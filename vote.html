@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script>if(location.pathname.startsWith("/SME-MC-Site/"))location.replace(location.origin+location.pathname.replace("/SME-MC-Site","")+location.search+location.hash);</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote | SME MC</title>
+  <meta name="description" content="Vote for SME MC on seven server listings and earn a total of $7000 and Vote Keys.">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="desktop_navbar">
+    <a href="/"><img class="desktop_navbar_logo_img" src="img/logo.png" alt="SME MC logo"></a>
+    <a href="/" class="desktop_navbar_link">Home</a>
+    <a href="/wiki/" class="desktop_navbar_link">Wiki</a>
+    <a href="https://map.sme-mc.us/" class="desktop_navbar_link">Map</a>
+    <a href="/#discord" class="desktop_navbar_link">Community</a>
+    <a href="/#about" class="desktop_navbar_link">About Us</a>
+    <a href="https://shop.sme-mc.us" class="desktop_navbar_link">Shop</a>
+    <div class="desktop_navbar_link2_div">
+      <a href="/#join" class="desktop_navbar_link2">Join Us!</a>
+    </div>
+  </nav>
+  <div class="mobile_navbar">
+    <a href="/" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" src="img/logo.png" alt="SME MC logo"></a>
+    <div id="mobile_navbar_links">
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/">Home</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/wiki/">Wiki</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="https://map.sme-mc.us/">Map</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#discord">Community</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#about">About Us</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="https://shop.sme-mc.us">Shop</a>
+      <a class="mobile_navbar_link" onclick="mobile_navbar_link_hider()" href="/#join">Join Us</a>
+    </div>
+    <div class="icon" onclick="mobile_navbar_link_hider()">
+      <i class="fa fa-bars"></i>
+    </div>
+    <script>
+      function mobile_navbar_link_hider() {
+        var links = document.getElementById("mobile_navbar_links");
+        links.style.display = links.style.display === "flex" ? "none" : "flex";
+      }
+    </script>
+  </div>
+
+  <main class="mainflex">
+    <section class="main1">
+      <h1 class="headline">Vote for SME MC</h1>
+      <p class="main5_store_description vote_intro">Vote on these sites for a total of $7000 and Vote Key(s)!</p>
+      <ul class="vote_list">
+        <li><a class="main5_store_button vote_list_link" href="https://minecraftservers.org/server/684484" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=minecraftservers.org&amp;sz=64" alt=""><span>Minecraft Servers</span></a></li>
+        <li><a class="main5_store_button vote_list_link" href="https://servers.eaglercraft.com/servers/b3e2741b-7f33-4386-8cba-cbfd045e18a9" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=servers.eaglercraft.com&amp;sz=64" alt=""><span>Eaglercraft</span></a></li>
+        <li><a class="main5_store_button vote_list_link" href="https://topeaglerservers.com/server/7a005893/SME-MC" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=topeaglerservers.com&amp;sz=64" alt=""><span>Top Eagler Servers</span></a></li>
+        <li><a class="main5_store_button vote_list_link" href="https://eaglercraftservers.com/server/sme-mc" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=eaglercraftservers.com&amp;sz=64" alt=""><span>Eaglercraft Servers</span></a></li>
+        <li><a class="main5_store_button vote_list_link" href="https://minecraft.buzz/vote/sme-network" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=minecraft.buzz&amp;sz=64" alt=""><span>Minecraft Buzz</span></a></li>
+        <li><a class="main5_store_button vote_list_link" href="https://www.minecraftiplist.com/server/SMEMC-44760" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=minecraftiplist.com&amp;sz=64" alt=""><span>Minecraft IP List</span></a></li>
+        <li><a class="main5_store_button vote_list_link" href="https://voxelrank.com/server/3986-sme-mc" target="_blank" rel="noopener noreferrer"><img src="https://www.google.com/s2/favicons?domain=voxelrank.com&amp;sz=64" alt=""><span>Voxel Rank</span></a></li>
+      </ul>
+      <a class="main5_store_button" href="/">Back to Home</a>
+      <br>
+    </section>
+  </main>
+
+  <footer class="copyright_div">
+    <h2 class="copyright">
+      SME MC Created by SME Network.<br>
+      &copy;2026 SME MC. All rights reserved.
+    </h2>
+  </footer>
+</body>
+
+</html>
