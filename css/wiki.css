@@ -312,6 +312,121 @@ body {
   border-left: 4px solid #63bd78;
 }
 
+.ob-intro {
+  max-width: 790px;
+  margin: 0 auto 1.5rem;
+  color: #d4d4d4;
+  line-height: 1.7;
+}
+
+.ob-hero {
+  display: block;
+  width: min(100%, 780px);
+  max-height: 310px;
+  margin: 0 auto 1.5rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+}
+
+.ob-grid,
+.ob-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.ob-grid-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.ob-card,
+.ob-callout {
+  padding: 1.25rem;
+  text-align: left;
+  background: #141414;
+  border: 1px solid #262626;
+  border-radius: 16px;
+}
+
+.ob-card h3,
+.ob-callout h3 {
+  margin: 0 0 0.65rem;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.ob-card p,
+.ob-callout p {
+  margin: 0;
+  color: #d0d0d0;
+  line-height: 1.65;
+}
+
+.ob-card-hint {
+  display: block;
+  margin-top: 0.9rem;
+  color: #9fdbb2;
+  font-size: 0.88rem;
+}
+
+.ob-step-number {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #9fdbb2;
+  font-weight: 700;
+}
+
+.ob-tip {
+  max-width: 790px;
+  margin: 1.5rem auto 0;
+  padding: 0.9rem 1.1rem;
+  color: #d9eadd;
+  background: #17251c;
+  border-radius: 8px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.ob-callout {
+  margin-top: 1.5rem;
+  border-color: #54452d;
+  background: #211d17;
+}
+
+.ob-callout a {
+  color: #9fe3a5;
+  text-underline-offset: 0.2em;
+}
+
+.ob-callout a:hover,
+.ob-callout a:focus-visible {
+  color: #c9f5d3;
+}
+
+.ob-level-table td:first-child {
+  color: #9fdbb2;
+  font-weight: 700;
+}
+
+.ob-card code,
+.ob-callout code,
+.ob-tip code {
+  color: #9fe3a5;
+  font-family: Consolas, "Courier New", monospace;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 720px) {
+  .ob-grid,
+  .ob-grid-two,
+  .ob-steps {
+    grid-template-columns: 1fr;
+  }
+}
+
 .mode-preview-duels {
   border-left: 4px solid #d36b6b;
 }

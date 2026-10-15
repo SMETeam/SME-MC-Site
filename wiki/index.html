@@ -99,6 +99,15 @@
 
     <a href="#" data-page="creative">Creative</a>
     <a href="#" data-page="oneblock">One Block</a>
+    <div class="sidenav-sub">
+      <a href="#" data-page="ob-start">Getting Started</a>
+      <a href="#" data-page="ob-levels">Levels &amp; Rewards</a>
+      <a href="#" data-page="ob-island">Islands &amp; Friends</a>
+      <a href="#" data-page="ob-skills">Skills &amp; Rebirth</a>
+      <a href="#" data-page="ob-enchanting">Enchanting</a>
+      <a href="#" data-page="ob-crates">Crates &amp; Keys</a>
+      <a href="#" data-page="ob-extras">Quests &amp; Events</a>
+    </div>
     <a href="#" data-page="duels">Duels</a>
     <a href="#" data-page="bed-wars">Bed Wars</a>
     <a href="#" data-page="murder-mystery">Murder Mystery</a>
@@ -368,13 +377,109 @@
 
     <section id="oneblock" class="wiki-section" style="display:none;">
       <h2 class="headline">One Block</h2>
-      <div class="mode-preview mode-preview-oneblock">
-        <h3>This page is still being worked on.</h3>
-        <p>
-          One Block starts you on one block and you slowly build out from there. For now,
-          make a safe platform, save your better drops, and don't throw away stuff you might need later.
-        </p>
+      <p class="ob-intro">One block. A whole island to build. You mine the block, level it up, and see what turns up next! Sounds simple.. until a mob shows up while you are standing over the void...</p>
+      <img class="ob-hero" src="../img/gamemodes/oneblock.png">
+      <p class="ob-tip">Tip: <code>/ob help</code> shows the One Block commands in game if you forget one...</p>
+    </section>
+
+    <section id="ob-start" class="wiki-section" style="display:none;">
+      <h2 class="headline">Getting Started</h2>
+      <p class="ob-intro">New to One Block? Do these first and you should be good to go :D</p>
+      <div class="ob-steps">
+        <article class="ob-card"><span class="ob-step-number">1</span><h3>Get to your island</h3><p>Use <code>/join</code> or <code>/ob j</code> to create your island or return to it. Need to head back to the main world? Use <code>/ob leave</code> or <code>/spawn</code>.</p></article>
+        <article class="ob-card"><span class="ob-step-number">2</span><h3>Build somewhere to stand</h3><p>Mine the OneBlock and use what you get to widen your platform. Put a chest down early. You really do not want your useful drops going into the void..</p></article>
+        <article class="ob-card"><span class="ob-step-number">3</span><h3>Watch your level</h3><p>The level progress bar is on while you play. Keep breaking the OneBlock to unlock different blocks, mobs, and chests as you go.</p></article>
       </div>
+      <p class="ob-tip">If you die, the server is set to send you back to your island. Still, maybe put some walls around that block before you get too brave!</p>
+    </section>
+
+    <section id="ob-levels" class="wiki-section" style="display:none;">
+      <h2 class="headline">Levels &amp; Rewards</h2>
+      <p class="ob-intro">Every level has its own mix of things that can come out of the OneBlock. Sometimes it is a block, sometimes it is a mob or a chest. Here are a few levels to look forward to!</p>
+      <div class="enchants-table-wrap">
+        <table class="enchants-table ob-level-table">
+          <thead><tr><th>Level</th><th>What is there?</th><th>Heads up</th></tr></thead>
+          <tbody>
+            <tr><td>0</td><td>Grass start</td><td>Grass and dirt to get things going.</td></tr>
+            <tr><td>1</td><td>Farm animals</td><td>Cows, sheep, and pigs can show up.</td></tr>
+            <tr><td>5</td><td>Coal cave</td><td>Coal ore and zombies. Maybe make a sword first!</td></tr>
+            <tr><td>14</td><td>Desert</td><td>Sand, sandstone, and a chance at a small chest.</td></tr>
+            <tr><td>20</td><td>Diamond depth</td><td>Diamond ore starts showing up.</td></tr>
+            <tr><td>25</td><td>Ocean</td><td>One of the early big milestones.</td></tr>
+            <tr><td>35</td><td>Blaze</td><td>Careful around the fire!</td></tr>
+            <tr><td>50</td><td>Woodland</td><td>Keep building, there is a lot more after this.</td></tr>
+            <tr><td>500</td><td>OneBlock Ascendant</td><td>The last level.. That is a lot of mining..</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="ob-grid ob-grid-two">
+        <article class="ob-card"><h3>Level up goodies</h3><p>Each level gives money. Some milestones give extra money and items too: level 5 has coal, level 20 has a diamond, and level 50 has emeralds.</p></article>
+        <article class="ob-card"><h3>Chests</h3><p>Chests can contain things like saplings, food, tools, ores, and other useful supplies. Save anything you might need for a farm or a future build!</p></article>
+      </div>
+    </section>
+
+    <section id="ob-island" class="wiki-section" style="display:none;">
+      <h2 class="headline">Islands &amp; Friends</h2>
+      <p class="ob-intro">You can build your island with a team or show it off to visitors. Just check who has build access before handing it out!</p>
+      <div class="ob-grid ob-grid-two">
+        <article class="ob-card"><h3>Team up</h3><p>Invite a player with <code>/ob invite &lt;player&gt;</code>. They can use <code>/ob accept</code> to join. Need to remove a teammate? Use <code>/ob kick &lt;player&gt;</code>.</p></article>
+        <article class="ob-card"><h3>Visitors &amp; building</h3><p>Use <code>/ob allow_visit</code> to turn visits on or off. To let somebody build without joining your team, use <code>/ob trust &lt;player&gt;</code>. You can check <code>/ob trustlist</code> or remove access with <code>/ob untrust &lt;player&gt;</code>.</p></article>
+        <article class="ob-card"><h3>PVP</h3><p>PVP is off by default on your island. The island owner can change it with <code>/ob togglepvp</code>. Worth checking before inviting everybody over!</p></article>
+        <article class="ob-card ob-card-warning"><h3>Thinking about resetting?</h3><p><code>/ob idreset</code> resets your island data. This one is serious, so make sure you mean it before confirming anything in game.</p></article>
+      </div>
+    </section>
+
+    <section id="ob-skills" class="wiki-section" style="display:none;">
+      <h2 class="headline">Skills &amp; Rebirth</h2>
+      <p class="ob-intro">Mining levels earns skill points for your island team. Open <code>/skills</code> and pick what helps your build most.</p>
+      <div class="ob-grid">
+        <article class="ob-card"><h3>Mining</h3><p>Improve your mining skill as you level up.</p></article>
+        <article class="ob-card"><h3>Movement</h3><p>Speed and jump skills help you get around your island.</p></article>
+        <article class="ob-card"><h3>Fighting</h3><p>Damage and hearts help when the OneBlock gives you a less friendly surprise.</p></article>
+      </div>
+      <div class="ob-callout"><h3>What is rebirth?</h3><p>Once your island reaches level 25, the owner can use <code>/ob rebirth</code>. It sends the island level back to 0 and gives a permanent multiplier for leveling up again. Your island and items stay, but your team's money, spent skills, and unspent skill points reset. Read the in game confirmation before using <code>/rebirth confirm</code>!</p></div>
+    </section>
+
+    <section id="ob-extras" class="wiki-section" style="display:none;">
+      <h2 class="headline">Quests &amp; Events</h2>
+      <p class="ob-intro">Need a break from mining? There is more to do around the island.</p>
+      <div class="ob-grid ob-grid-two">
+        <article class="ob-card"><h3>Quests</h3><p>Open <code>/quests</code> to find Island Journey goals, Daily Jobs, Weekly Challenges, and Crate Quests. The journey teaches the OneBlock progression loop, so that is a good place to start!</p></article>
+        <article class="ob-card"><h3>Shop &amp; auction</h3><p>Sell extra resources with <code>/shop</code> or <code>/sellgui</code>. You can also browse player listings with <code>/ah</code>. Check <code>/balance</code> before spending everything :P</p><div class="command-row"><code>/shop</code><code>/sellgui</code><code>/ah</code></div></article>
+        <article class="ob-card"><h3>Surprise events</h3><p>Watch chat and the action bar for events. Mob Invasion sends hostile mobs to islands, Lucky Streak adds bonus drops, and XP Storm and Money Rain reward mining. Meteor Shower sends items to spawn, so head over when it starts!</p></article>
+        <article class="ob-card"><h3>Weekend boost</h3><p>Saturday and Sunday have a 2x multiplier boost. Good time to get some extra levels in!</p></article>
+      </div>
+    </section>
+
+    <section id="ob-enchanting" class="wiki-section" style="display:none;">
+      <h2 class="headline">Enchanting</h2>
+      <p class="ob-intro">Want better gear? The Wizard and Tinkerer are at spawn!</p>
+      <div class="ob-grid ob-grid-two">
+        <article class="ob-card">
+          <h3>Enchanting Wizard</h3>
+          <p>Right-click the Wizard to buy random custom enchant books with XP. Right-click a book to see what you got. Check its success chance before using it!</p>
+        </article>
+        <article class="ob-card">
+          <h3>The Tinkerer</h3>
+          <p>Got a custom enchant book you do not want? Trade it with the Tinkerer for Secret Dust! Open the dust for a chance at Magic Dust, which can boost a book's success chance.</p>
+        </article>
+      </div>
+      <p class="ob-tip">Use <code>/spawn</code> to find them. The Tinkerer also takes custom enchanted gear.</p>
+    </section>
+
+    <section id="ob-crates" class="wiki-section" style="display:none;">
+      <h2 class="headline">Crates &amp; Keys</h2>
+      <p class="ob-intro">Crates have extra rewards for your island. Just grab a key first!</p>
+      <div class="ob-grid">
+        <article class="ob-card"><h3>Common</h3><p>Finish the Daily Supply Run quest for a Common Key. You can do it again after 24 hours.</p></article>
+        <article class="ob-card"><h3>Rare</h3><p>Finish Midweek Grind for a Rare Key. It resets after 3 days and 12 hours.</p></article>
+        <article class="ob-card"><h3>Legendary</h3><p>Finish Legendary Ascension for a Legendary Key. This one resets after 7 days.</p></article>
+      </div>
+      <div class="ob-callout">
+        <h3>How do I get a key?</h3>
+        <p>Open <code>/quests</code> and pick <strong>Crate Quests</strong>. Some Journey quests give keys too! You can also get them from the <a href="https://shop.sme-mc.us/" target="_blank" rel="noopener noreferrer">shop page</a>.</p>
+      </div>
+      <p class="ob-tip">Crates are at spawn. Use <code>/spawn</code>, then check the rewards before opening one!</p>
     </section>
 
     <section id="duels" class="wiki-section" style="display:none;">
